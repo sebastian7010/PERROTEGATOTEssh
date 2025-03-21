@@ -1,0 +1,891 @@
+[{
+        "id": 1,
+        "categoryId": 1,
+        "name": "Collar para Perro",
+        "price": 45000,
+        "description": "Collar ajustable para perros pequeños y medianos",
+        "image": "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
+        "gallery": [
+            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
+            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
+            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg"
+        ]
+    },
+    { "id": 2, "categoryId": 1, "name": "Correa para Perro", "price": 25000, "description": "Correa resistente de nylon", "image": "https://th.bing.com/th/id/R.d8d9acae7b5e907b3d617507fc89188c?rik=E9nJq3VYJdC4UA&pid=ImgRaw&r=0" },
+    { "id": 3, "categoryId": 1, "name": "Abrigo para Perro", "price": 80000, "description": "Abrigo impermeable para clima frío", "image": "https://via.placeholder.com/150?text=Abrigo" },
+    { "id": 4, "categoryId": 1, "name": "Zapatos para Perro", "price": 50000, "description": "Zapatos antideslizantes para perros", "image": "https://via.placeholder.com/150?text=Zapatos" },
+    { "id": 5, "categoryId": 1, "name": "Sombrero para Perro", "price": 30000, "description": "Sombrero divertido para perros", "image": "https://via.placeholder.com/150?text=Sombrero" },
+    { "id": 6, "categoryId": 1, "name": "Cama para Perro", "price": 150000, "description": "Cama cómoda y resistente", "image": "https://via.placeholder.com/150?text=Cama" },
+    { "id": 7, "categoryId": 1, "name": "Mochila para Perro", "price": 70000, "description": "Mochila ligera para perros", "image": "https://via.placeholder.com/150?text=Mochila" },
+    { "id": 8, "categoryId": 1, "name": "Pañuelo para Perro", "price": 20000, "description": "Pañuelo decorativo", "image": "https://via.placeholder.com/150?text=Pañuelo" },
+    { "id": 9, "categoryId": 1, "name": "Gafas para Perro", "price": 40000, "description": "Gafas de sol protectoras", "image": "https://via.placeholder.com/150?text=Gafas" },
+    { "id": 10, "categoryId": 1, "name": "Cepillo para Perro", "price": 25000, "description": "Cepillo para el pelo", "image": "https://via.placeholder.com/150?text=Cepillo" },
+    { "id": 11, "categoryId": 1, "name": "Bolsa de Transporte", "price": 80000, "description": "Bolsa para transportar perros pequeños", "image": "https://via.placeholder.com/150?text=Bolsa" },
+    { "id": 12, "categoryId": 1, "name": "Plato para Perro", "price": 20000, "description": "Plato resistente de acero inoxidable", "image": "https://via.placeholder.com/150?text=Plato" },
+    { "id": 13, "categoryId": 1, "name": "Juguete Mordedor", "price": 35000, "description": "Juguete resistente para morder", "image": "https://via.placeholder.com/150?text=Juguete" },
+    { "id": 14, "categoryId": 1, "name": "Arnés para Perro", "price": 60000, "description": "Arnés ajustable para perros", "image": "https://via.placeholder.com/150?text=Arnés" },
+    { "id": 15, "categoryId": 1, "name": "Botella de Agua Portátil", "price": 30000, "description": "Botella para hidratar a tu perro en paseos", "image": "https://via.placeholder.com/150?text=Botella" },
+    { "id": 16, "categoryId": 1, "name": "Bolsas para Desechos", "price": 10000, "description": "Bolsas biodegradables para desechos", "image": "https://via.placeholder.com/150?text=Bolsas" },
+    { "id": 17, "categoryId": 1, "name": "Chaleco Salvavidas", "price": 90000, "description": "Chaleco salvavidas para perros", "image": "https://via.placeholder.com/150?text=Chaleco" },
+    { "id": 18, "categoryId": 1, "name": "Rascador para Perro", "price": 55000, "description": "Rascador para aliviar picazón", "image": "https://via.placeholder.com/150?text=Rascador" },
+    { "id": 19, "categoryId": 1, "name": "Tazón Antideslizante", "price": 25000, "description": "Tazón que no se desliza mientras come", "image": "https://via.placeholder.com/150?text=Tazón" },
+    { "id": 20, "categoryId": 1, "name": "Snacks Saludables", "price": 20000, "description": "Snacks ricos y nutritivos", "image": "https://via.placeholder.com/150?text=Snacks" },
+    { "id": 21, "categoryId": 1, "name": "Kit de Limpieza", "price": 75000, "description": "Set completo para limpieza de perros", "image": "https://via.placeholder.com/150?text=Kit" },
+    { "id": 22, "categoryId": 1, "name": "Camisa para Perro", "price": 40000, "description": "Camisa cómoda y moderna", "image": "https://via.placeholder.com/150?text=Camisa" },
+    { "id": 23, "categoryId": 1, "name": "Cuerda para Perros", "price": 18000, "description": "Cuerda para juegos de tirón", "image": "https://via.placeholder.com/150?text=Cuerda" },
+    { "id": 24, "categoryId": 1, "name": "Tienda para Perros", "price": 120000, "description": "Casa portátil para perros", "image": "https://via.placeholder.com/150?text=Tienda" },
+    { "id": 25, "categoryId": 1, "name": "Juguete Interactivo", "price": 50000, "description": "Juguete para estimular la mente", "image": "https://via.placeholder.com/150?text=Interactivo" },
+    { "id": 26, "categoryId": 1, "name": "Disco Volador", "price": 30000, "description": "Juguete para lanzar y recoger", "image": "https://via.placeholder.com/150?text=Disco" },
+    { "id": 27, "categoryId": 1, "name": "Collar Antipulgas", "price": 55000, "description": "Collar que protege contra pulgas", "image": "https://via.placeholder.com/150?text=Antipulgas" },
+
+
+
+    { "id": 28, "categoryId": 2, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
+    { "id": 29, "categoryId": 2, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
+    { "id": 30, "categoryId": 2, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
+    { "id": 31, "categoryId": 2, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
+    { "id": 32, "categoryId": 2, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
+    { "id": 33, "categoryId": 2, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
+    { "id": 34, "categoryId": 2, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
+    { "id": 35, "categoryId": 2, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
+    { "id": 36, "categoryId": 2, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 37, "categoryId": 2, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
+    { "id": 38, "categoryId": 2, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
+    { "id": 39, "categoryId": 2, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
+    { "id": 40, "categoryId": 2, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
+    { "id": 41, "categoryId": 2, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
+    { "id": 42, "categoryId": 2, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
+    { "id": 43, "categoryId": 2, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
+    { "id": 44, "categoryId": 2, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
+    { "id": 45, "categoryId": 2, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
+    { "id": 46, "categoryId": 2, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
+    { "id": 47, "categoryId": 2, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
+    { "id": 48, "categoryId": 2, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
+    { "id": 49, "categoryId": 2, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
+    { "id": 50, "categoryId": 2, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 51, "categoryId": 2, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" },
+
+    { "id": 52, "categoryId": 3, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
+    { "id": 53, "categoryId": 3, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
+    { "id": 54, "categoryId": 3, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
+    { "id": 55, "categoryId": 3, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
+    { "id": 56, "categoryId": 3, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
+    { "id": 57, "categoryId": 3, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
+    { "id": 58, "categoryId": 3, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
+    { "id": 59, "categoryId": 3, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
+    { "id": 60, "categoryId": 3, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 61, "categoryId": 3, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
+    { "id": 62, "categoryId": 3, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
+    { "id": 63, "categoryId": 3, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
+    { "id": 64, "categoryId": 3, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
+    { "id": 65, "categoryId": 3, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
+    { "id": 66, "categoryId": 3, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
+    { "id": 67, "categoryId": 3, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
+    { "id": 68, "categoryId": 3, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
+    { "id": 69, "categoryId": 3, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
+    { "id": 70, "categoryId": 3, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
+    { "id": 71, "categoryId": 3, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
+    { "id": 72, "categoryId": 3, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
+    { "id": 73, "categoryId": 3, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
+    { "id": 74, "categoryId": 3, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 75, "categoryId": 3, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" },
+
+    { "id": 76, "categoryId": 4, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
+    { "id": 77, "categoryId": 4, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
+    { "id": 78, "categoryId": 4, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
+    { "id": 79, "categoryId": 4, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
+    { "id": 80, "categoryId": 4, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
+    { "id": 81, "categoryId": 4, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
+    { "id": 82, "categoryId": 4, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
+    { "id": 83, "categoryId": 4, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
+    { "id": 84, "categoryId": 4, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 85, "categoryId": 4, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
+    { "id": 86, "categoryId": 4, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
+    { "id": 87, "categoryId": 4, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
+    { "id": 88, "categoryId": 4, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
+    { "id": 89, "categoryId": 4, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
+    { "id": 90, "categoryId": 4, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
+    { "id": 91, "categoryId": 4, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
+    { "id": 92, "categoryId": 4, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
+    { "id": 93, "categoryId": 4, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
+    { "id": 94, "categoryId": 4, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
+    { "id": 95, "categoryId": 4, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
+    { "id": 96, "categoryId": 4, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
+    { "id": 97, "categoryId": 4, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
+    { "id": 98, "categoryId": 4, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
+    { "id": 99, "categoryId": 4, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" },
+
+    {
+        "id": 99,
+        "categoryId": 5,
+        "name": "Comida Premium para Perros",
+        "price": 85000,
+        "description": "Alimento de alta calidad para perros exigentes",
+        "image": "https://via.placeholder.com/150?text=Comida+Premium"
+    },
+    {
+        "id": 100,
+        "categoryId": 5,
+        "name": "Snacks Saludables",
+        "price": 45000,
+        "description": "Bocadillos ricos y nutritivos para perros",
+        "image": "https://via.placeholder.com/150?text=Snacks"
+    },
+    {
+        "id": 101,
+        "categoryId": 5,
+        "name": "Croquetas Húmedas",
+        "price": 75000,
+        "description": "Comida húmeda de calidad premium",
+        "image": "https://via.placeholder.com/150?text=Croquetas"
+    },
+    {
+        "id": 102,
+        "categoryId": 5,
+        "name": "Barritas Masticables",
+        "price": 55000,
+        "description": "Barritas deliciosas para perros activos",
+        "image": "https://via.placeholder.com/150?text=Barritas"
+    },
+    {
+        "id": 103,
+        "categoryId": 5,
+        "name": "Comida Especial para Cachorros",
+        "price": 80000,
+        "description": "Nutrición completa para los más pequeños",
+        "image": "https://via.placeholder.com/150?text=Cachorros"
+    },
+    {
+        "id": 104,
+        "categoryId": 5,
+        "name": "Alimento Hipoalergénico",
+        "price": 95000,
+        "description": "Ideal para perros con sensibilidad alimentaria",
+        "image": "https://via.placeholder.com/150?text=Hipoalergénico"
+    },
+    {
+        "id": 105,
+        "categoryId": 5,
+        "name": "Comida Baja en Grasa",
+        "price": 70000,
+        "description": "Para perros que necesitan controlar su peso",
+        "image": "https://via.placeholder.com/150?text=Baja+Grasa"
+    },
+    {
+        "id": 106,
+        "categoryId": 5,
+        "name": "Comida Gourmet para Perros",
+        "price": 100000,
+        "description": "Una experiencia de sabor premium",
+        "image": "https://via.placeholder.com/150?text=Gourmet"
+    },
+    {
+        "id": 107,
+        "categoryId": 5,
+        "name": "Croquetas Orgánicas",
+        "price": 87000,
+        "description": "Ingredientes 100% orgánicos y frescos",
+        "image": "https://via.placeholder.com/150?text=Orgánicas"
+    },
+    {
+        "id": 108,
+        "categoryId": 5,
+        "name": "Comida para Perros Senior",
+        "price": 89000,
+        "description": "Nutrición adaptada para perros mayores",
+        "image": "https://via.placeholder.com/150?text=Senior"
+    },
+    {
+        "id": 109,
+        "categoryId": 5,
+        "name": "Comida Deshidratada",
+        "price": 78000,
+        "description": "Sabor y frescura en cada porción",
+        "image": "https://via.placeholder.com/150?text=Deshidratada"
+    },
+    {
+        "id": 110,
+        "categoryId": 5,
+        "name": "Croquetas de Salmón",
+        "price": 91000,
+        "description": "Ricas en omega-3 para un pelaje brillante",
+        "image": "https://via.placeholder.com/150?text=Salmón"
+    },
+    {
+        "id": 111,
+        "categoryId": 5,
+        "name": "Alimento para Perros Activos",
+        "price": 83000,
+        "description": "Energía para perros que se mueven mucho",
+        "image": "https://via.placeholder.com/150?text=Activos"
+    },
+    {
+        "id": 112,
+        "categoryId": 5,
+        "name": "Comida Económica para Perros",
+        "price": 45000,
+        "description": "Calidad al mejor precio",
+        "image": "https://via.placeholder.com/150?text=Económica"
+    },
+    {
+        "id": 113,
+        "categoryId": 5,
+        "name": "Snacks con Vitaminas",
+        "price": 30000,
+        "description": "Snacks enriquecidos para perros saludables",
+        "image": "https://via.placeholder.com/150?text=Vitaminas"
+    },
+    {
+        "id": 114,
+        "categoryId": 5,
+        "name": "Alimento en Lata",
+        "price": 56000,
+        "description": "Comida húmeda de sabor irresistible",
+        "image": "https://via.placeholder.com/150?text=Lata"
+    },
+    {
+        "id": 115,
+        "categoryId": 5,
+        "name": "Comida para Perros Grandes",
+        "price": 85000,
+        "description": "Raciones para razas grandes",
+        "image": "https://via.placeholder.com/150?text=Grandes"
+    },
+    {
+        "id": 116,
+        "categoryId": 5,
+        "name": "Alimento para Razas Pequeñas",
+        "price": 72000,
+        "description": "Ideal para perros pequeños",
+        "image": "https://via.placeholder.com/150?text=Pequeñas"
+    },
+    {
+        "id": 117,
+        "categoryId": 5,
+        "name": "Comida Balanceada",
+        "price": 88000,
+        "description": "Equilibrio perfecto de nutrientes",
+        "image": "https://via.placeholder.com/150?text=Balanceada"
+    },
+    {
+        "id": 118,
+        "categoryId": 5,
+        "name": "Croquetas de Pollo",
+        "price": 81000,
+        "description": "El sabor favorito de todos los perros",
+        "image": "https://via.placeholder.com/150?text=Pollo"
+    },
+    {
+        "id": 119,
+        "categoryId": 5,
+        "name": "Snack Masticable",
+        "price": 27000,
+        "description": "Entretenimiento y sabor",
+        "image": "https://via.placeholder.com/150?text=Masticable"
+    },
+    {
+        "id": 120,
+        "categoryId": 5,
+        "name": "Comida Vegana",
+        "price": 90000,
+        "description": "Ideal para dueños y perros veganos",
+        "image": "https://via.placeholder.com/150?text=Vegana"
+    },
+    {
+        "id": 121,
+        "categoryId": 5,
+        "name": "Barritas Orgánicas",
+        "price": 39000,
+        "description": "Barras saludables y deliciosas",
+        "image": "https://via.placeholder.com/150?text=Orgánicas"
+    },
+    {
+        "id": 122,
+        "categoryId": 5,
+        "name": "Bolsa Familiar de Comida",
+        "price": 105000,
+        "description": "Rendimiento para toda la familia canina",
+        "image": "https://via.placeholder.com/150?text=Familiar"
+    },
+
+
+    {
+        "id": 123,
+        "categoryId": 6,
+        "name": "Comida Premium para Gatos",
+        "price": 85000,
+        "description": "Alimento de alta calidad para gatos exigentes",
+        "image": "https://via.placeholder.com/150?text=Comida+Premium"
+    },
+    {
+        "id": 124,
+        "categoryId": 6,
+        "name": "Snacks Saludables para Gatos",
+        "price": 45000,
+        "description": "Bocadillos ricos y nutritivos para gatos",
+        "image": "https://via.placeholder.com/150?text=Snacks"
+    },
+    {
+        "id": 125,
+        "categoryId": 6,
+        "name": "Comida Húmeda para Gatos",
+        "price": 75000,
+        "description": "Comida húmeda de calidad premium para gatos",
+        "image": "https://via.placeholder.com/150?text=Húmeda"
+    },
+    {
+        "id": 126,
+        "categoryId": 6,
+        "name": "Barritas Masticables para Gatos",
+        "price": 55000,
+        "description": "Barritas deliciosas para gatos activos",
+        "image": "https://via.placeholder.com/150?text=Barritas"
+    },
+    {
+        "id": 127,
+        "categoryId": 6,
+        "name": "Comida Especial para Gatitos",
+        "price": 80000,
+        "description": "Nutrición completa para los más pequeños",
+        "image": "https://via.placeholder.com/150?text=Gatitos"
+    },
+    {
+        "id": 128,
+        "categoryId": 6,
+        "name": "Alimento Hipoalergénico para Gatos",
+        "price": 95000,
+        "description": "Ideal para gatos con sensibilidad alimentaria",
+        "image": "https://via.placeholder.com/150?text=Hipoalergénico"
+    },
+    {
+        "id": 129,
+        "categoryId": 6,
+        "name": "Comida Baja en Grasa para Gatos",
+        "price": 70000,
+        "description": "Para gatos que necesitan controlar su peso",
+        "image": "https://via.placeholder.com/150?text=Baja+Grasa"
+    },
+    {
+        "id": 130,
+        "categoryId": 6,
+        "name": "Comida Gourmet para Gatos",
+        "price": 100000,
+        "description": "Una experiencia de sabor premium para tu gato",
+        "image": "https://via.placeholder.com/150?text=Gourmet"
+    },
+    {
+        "id": 131,
+        "categoryId": 6,
+        "name": "Croquetas Orgánicas para Gatos",
+        "price": 87000,
+        "description": "Ingredientes 100% orgánicos y frescos",
+        "image": "https://via.placeholder.com/150?text=Orgánicas"
+    },
+    {
+        "id": 132,
+        "categoryId": 6,
+        "name": "Comida para Gatos Senior",
+        "price": 89000,
+        "description": "Nutrición adaptada para gatos mayores",
+        "image": "https://via.placeholder.com/150?text=Senior"
+    },
+    {
+        "id": 133,
+        "categoryId": 6,
+        "name": "Comida Deshidratada para Gatos",
+        "price": 78000,
+        "description": "Sabor y frescura en cada porción",
+        "image": "https://via.placeholder.com/150?text=Deshidratada"
+    },
+    {
+        "id": 134,
+        "categoryId": 6,
+        "name": "Croquetas de Salmón para Gatos",
+        "price": 91000,
+        "description": "Ricas en omega-3 para un pelaje brillante",
+        "image": "https://via.placeholder.com/150?text=Salmón"
+    },
+    {
+        "id": 135,
+        "categoryId": 6,
+        "name": "Alimento para Gatos Activos",
+        "price": 83000,
+        "description": "Energía para gatos que se mueven mucho",
+        "image": "https://via.placeholder.com/150?text=Activos"
+    },
+    {
+        "id": 136,
+        "categoryId": 6,
+        "name": "Comida Económica para Gatos",
+        "price": 45000,
+        "description": "Calidad al mejor precio para tu gato",
+        "image": "https://via.placeholder.com/150?text=Económica"
+    },
+    {
+        "id": 137,
+        "categoryId": 6,
+        "name": "Snacks con Vitaminas para Gatos",
+        "price": 30000,
+        "description": "Snacks enriquecidos para gatos saludables",
+        "image": "https://via.placeholder.com/150?text=Vitaminas"
+    },
+    {
+        "id": 138,
+        "categoryId": 6,
+        "name": "Alimento en Lata para Gatos",
+        "price": 56000,
+        "description": "Comida húmeda de sabor irresistible",
+        "image": "https://via.placeholder.com/150?text=Lata"
+    },
+    {
+        "id": 139,
+        "categoryId": 6,
+        "name": "Comida para Gatos Grandes",
+        "price": 85000,
+        "description": "Raciones para gatos de gran tamaño",
+        "image": "https://via.placeholder.com/150?text=Grandes"
+    },
+    {
+        "id": 140,
+        "categoryId": 6,
+        "name": "Alimento para Gatos Pequeños",
+        "price": 72000,
+        "description": "Ideal para gatos de tamaño reducido",
+        "image": "https://via.placeholder.com/150?text=Pequeños"
+    },
+    {
+        "id": 141,
+        "categoryId": 6,
+        "name": "Comida Balanceada para Gatos",
+        "price": 88000,
+        "description": "Equilibrio perfecto de nutrientes",
+        "image": "https://via.placeholder.com/150?text=Balanceada"
+    },
+    {
+        "id": 142,
+        "categoryId": 6,
+        "name": "Croquetas de Pollo para Gatos",
+        "price": 81000,
+        "description": "El sabor favorito de muchos gatos",
+        "image": "https://via.placeholder.com/150?text=Pollo"
+    },
+    {
+        "id": 143,
+        "categoryId": 6,
+        "name": "Snack Masticable para Gatos",
+        "price": 27000,
+        "description": "Entretenimiento y sabor en cada mordida",
+        "image": "https://via.placeholder.com/150?text=Masticable"
+    },
+    {
+        "id": 144,
+        "categoryId": 6,
+        "name": "Comida Vegana para Gatos",
+        "price": 90000,
+        "description": "Ideal para dueños y gatos veganos",
+        "image": "https://via.placeholder.com/150?text=Vegana"
+    },
+    {
+        "id": 145,
+        "categoryId": 6,
+        "name": "Barritas Orgánicas para Gatos",
+        "price": 39000,
+        "description": "Barras saludables y deliciosas",
+        "image": "https://via.placeholder.com/150?text=Orgánicas"
+    },
+    {
+        "id": 146,
+        "categoryId": 6,
+        "name": "Bolsa Familiar de Comida para Gatos",
+        "price": 105000,
+        "description": "Rendimiento para toda la familia felina",
+        "image": "https://via.placeholder.com/150?text=Familiar"
+    },
+
+    {
+        "id": 147,
+        "categoryId": 7,
+        "name": "Ratón de Juguete para Gatos",
+        "price": 15000,
+        "description": "Ratón interactivo de felpa que estimula el instinto cazador.",
+        "image": "https://via.placeholder.com/150?text=Rat%C3%B3n"
+    },
+    {
+        "id": 148,
+        "categoryId": 7,
+        "name": "Pelota Saltarina para Gatos",
+        "price": 12000,
+        "description": "Pelota ligera que rebota y rueda para horas de juego.",
+        "image": "https://via.placeholder.com/150?text=Pelota"
+    },
+    {
+        "id": 149,
+        "categoryId": 7,
+        "name": "Pluma de Juguete para Gatos",
+        "price": 18000,
+        "description": "Pluma con cuerda que invita a saltar y cazar.",
+        "image": "https://via.placeholder.com/150?text=Pluma"
+    },
+    {
+        "id": 150,
+        "categoryId": 7,
+        "name": "Juguete Caminador para Gatos",
+        "price": 20000,
+        "description": "Juguete que se desplaza para estimular la actividad.",
+        "image": "https://via.placeholder.com/150?text=Caminador"
+    },
+    {
+        "id": 151,
+        "categoryId": 7,
+        "name": "Puntero Láser para Gatos",
+        "price": 25000,
+        "description": "Dispositivo láser para entretener a tu gato durante horas.",
+        "image": "https://via.placeholder.com/150?text=L%C3%A1ser"
+    },
+    {
+        "id": 152,
+        "categoryId": 7,
+        "name": "Rascador con Juguetes Integrados",
+        "price": 40000,
+        "description": "Rascador que combina diversión e higiene para el gato.",
+        "image": "https://via.placeholder.com/150?text=Rascador"
+    },
+    {
+        "id": 153,
+        "categoryId": 7,
+        "name": "Cuerda de Juguete para Gatos",
+        "price": 13000,
+        "description": "Cuerda resistente que invita al juego y al ejercicio.",
+        "image": "https://via.placeholder.com/150?text=Cuerda"
+    },
+    {
+        "id": 154,
+        "categoryId": 7,
+        "name": "Ratón Electrónico para Gatos",
+        "price": 22000,
+        "description": "Ratón que se mueve de forma impredecible para estimular al felino.",
+        "image": "https://via.placeholder.com/150?text=Rat%C3%B3n+Electr%C3%B3nico"
+    },
+    {
+        "id": 155,
+        "categoryId": 7,
+        "name": "Juguete Interactivo Sonoro",
+        "price": 24000,
+        "description": "Emite sonidos divertidos al moverse, captando la atención del gato.",
+        "image": "https://via.placeholder.com/150?text=Sonoro"
+    },
+    {
+        "id": 156,
+        "categoryId": 7,
+        "name": "Mini Cubo de Juguete",
+        "price": 17000,
+        "description": "Cubo con texturas y sorpresas para estimular la curiosidad.",
+        "image": "https://via.placeholder.com/150?text=Cubo"
+    },
+    {
+        "id": 157,
+        "categoryId": 7,
+        "name": "Cuerda con Campana",
+        "price": 14000,
+        "description": "Cuerda con pequeña campana que suena al moverse, ideal para juegos.",
+        "image": "https://via.placeholder.com/150?text=Campana"
+    },
+    {
+        "id": 158,
+        "categoryId": 7,
+        "name": "Ratón con Luz LED",
+        "price": 23000,
+        "description": "Ratón de juguete con luz LED para juegos nocturnos.",
+        "image": "https://via.placeholder.com/150?text=LED"
+    },
+    {
+        "id": 159,
+        "categoryId": 7,
+        "name": "Pelota con Cinta Brillante",
+        "price": 16000,
+        "description": "Pelota que incorpora una cinta brillante para mayor atracción.",
+        "image": "https://via.placeholder.com/150?text=Cinta"
+    },
+    {
+        "id": 160,
+        "categoryId": 7,
+        "name": "Pluma con Cinta y Sonido",
+        "price": 21000,
+        "description": "Juguete combinado que estimula visual y auditivamente al gato.",
+        "image": "https://via.placeholder.com/150?text=Pluma+Sonora"
+    },
+    {
+        "id": 161,
+        "categoryId": 7,
+        "name": "Juguete Aromatizado con Catnip",
+        "price": 19000,
+        "description": "Juguete impregnado con hierba gatera para estimular el juego.",
+        "image": "https://via.placeholder.com/150?text=Catnip"
+    },
+    {
+        "id": 162,
+        "categoryId": 7,
+        "name": "Rascador Vertical con Accesorios",
+        "price": 35000,
+        "description": "Rascador que incluye elementos interactivos para el gato.",
+        "image": "https://via.placeholder.com/150?text=Vertical"
+    },
+    {
+        "id": 163,
+        "categoryId": 7,
+        "name": "Peluche Juguetón para Gatos",
+        "price": 20000,
+        "description": "Pequeño peluche que se convierte en el compañero de juegos.",
+        "image": "https://via.placeholder.com/150?text=Peluche"
+    },
+    {
+        "id": 164,
+        "categoryId": 7,
+        "name": "Laberinto de Juguete",
+        "price": 30000,
+        "description": "Pequeño laberinto para que tu gato explore y se divierta.",
+        "image": "https://via.placeholder.com/150?text=Laberinto"
+    },
+    {
+        "id": 165,
+        "categoryId": 7,
+        "name": "Circuito de Obstáculos",
+        "price": 32000,
+        "description": "Circuito con obstáculos y sorpresas para mantener activo a tu gato.",
+        "image": "https://via.placeholder.com/150?text=Circuito"
+    },
+    {
+        "id": 166,
+        "categoryId": 7,
+        "name": "Túnel de Juego para Gatos",
+        "price": 28000,
+        "description": "Túnel flexible para esconderse y salir a jugar.",
+        "image": "https://via.placeholder.com/150?text=T%C3%BAnel"
+    },
+    {
+        "id": 167,
+        "categoryId": 7,
+        "name": "Juguete Volador",
+        "price": 26000,
+        "description": "Juguete con alas que simula vuelo para captar la atención.",
+        "image": "https://via.placeholder.com/150?text=Volador"
+    },
+    {
+        "id": 168,
+        "categoryId": 7,
+        "name": "Pelota de Látex Rebotadora",
+        "price": 15000,
+        "description": "Pelota de látex que rebota y anima al juego.",
+        "image": "https://via.placeholder.com/150?text=L%C3%A1tex"
+    },
+    {
+        "id": 169,
+        "categoryId": 7,
+        "name": "Juguete Sonoro Interactivo",
+        "price": 23000,
+        "description": "Juguete que emite sonidos divertidos al moverse.",
+        "image": "https://via.placeholder.com/150?text=Sonoro+Interactivo"
+    },
+    {
+        "id": 170,
+        "categoryId": 7,
+        "name": "Juguete Multifuncional",
+        "price": 40000,
+        "description": "Combinación de varios elementos interactivos para horas de diversión.",
+        "image": "https://via.placeholder.com/150?text=Multifuncional"
+    },
+
+    {
+        "id": 171,
+        "categoryId": 8,
+        "name": "Collar Elegante para Gatos",
+        "price": 20000,
+        "description": "Collar ajustable y con diseño elegante para gatos.",
+        "image": "https://via.placeholder.com/150?text=Collar"
+    },
+    {
+        "id": 172,
+        "categoryId": 8,
+        "name": "Arnés de Seguridad para Gatos",
+        "price": 30000,
+        "description": "Arnés cómodo para pasear a tu gato de manera segura.",
+        "image": "https://via.placeholder.com/150?text=Arnés"
+    },
+    {
+        "id": 173,
+        "categoryId": 8,
+        "name": "Cama Suave para Gatos",
+        "price": 35000,
+        "description": "Cama con diseño ergonómico para el descanso óptimo de tu gato.",
+        "image": "https://via.placeholder.com/150?text=Cama"
+    },
+    {
+        "id": 174,
+        "categoryId": 8,
+        "name": "Rascador Vertical para Gatos",
+        "price": 25000,
+        "description": "Rascador con estructura robusta para satisfacer el instinto de rascado.",
+        "image": "https://via.placeholder.com/150?text=Rascador+Vertical"
+    },
+    {
+        "id": 175,
+        "categoryId": 8,
+        "name": "Casa de Gato de Lujo",
+        "price": 60000,
+        "description": "Casa cómoda y moderna para que tu gato se relaje.",
+        "image": "https://via.placeholder.com/150?text=Casa"
+    },
+    {
+        "id": 176,
+        "categoryId": 8,
+        "name": "Fuente de Agua para Gatos",
+        "price": 40000,
+        "description": "Fuente automática para mantener a tu gato hidratado.",
+        "image": "https://via.placeholder.com/150?text=Fuente"
+    },
+    {
+        "id": 177,
+        "categoryId": 8,
+        "name": "Comedero Inteligente para Gatos",
+        "price": 45000,
+        "description": "Comedero con temporizador para porciones controladas.",
+        "image": "https://via.placeholder.com/150?text=Comedero"
+    },
+    {
+        "id": 178,
+        "categoryId": 8,
+        "name": "Juguete de Plumas para Gatos",
+        "price": 15000,
+        "description": "Juguete interactivo con plumas para estimular el instinto cazador.",
+        "image": "https://via.placeholder.com/150?text=Plumas"
+    },
+    {
+        "id": 179,
+        "categoryId": 8,
+        "name": "Rascador Horizontal para Gatos",
+        "price": 30000,
+        "description": "Rascador de cartón reciclado para mantener las uñas en forma.",
+        "image": "https://via.placeholder.com/150?text=Cartón"
+    },
+    {
+        "id": 180,
+        "categoryId": 8,
+        "name": "Cama con Cojín para Gatos",
+        "price": 32000,
+        "description": "Cama acolchada con cojín extraíble, ideal para el descanso.",
+        "image": "https://via.placeholder.com/150?text=Cojín"
+    },
+    {
+        "id": 181,
+        "categoryId": 8,
+        "name": "Transportadora Plegable para Gatos",
+        "price": 50000,
+        "description": "Transportadora ligera y plegable para viajes seguros.",
+        "image": "https://via.placeholder.com/150?text=Transportadora"
+    },
+    {
+        "id": 182,
+        "categoryId": 8,
+        "name": "Caja de Arena Autolimpiable",
+        "price": 55000,
+        "description": "Caja de arena con sistema de autolimpieza para facilitar el mantenimiento.",
+        "image": "https://via.placeholder.com/150?text=Caja+de+Arena"
+    },
+    {
+        "id": 183,
+        "categoryId": 8,
+        "name": "Rascador con Juguetes Integrados",
+        "price": 42000,
+        "description": "Rascador multifuncional con juguetes para mantener activo a tu gato.",
+        "image": "https://via.placeholder.com/150?text=Multifuncional"
+    },
+    {
+        "id": 184,
+        "categoryId": 8,
+        "name": "Set de Accesorios para Gatos",
+        "price": 38000,
+        "description": "Conjunto que incluye collar, juguete y comedero.",
+        "image": "https://via.placeholder.com/150?text=Set+Accesorios"
+    },
+    {
+        "id": 185,
+        "categoryId": 8,
+        "name": "Camita de Felpa para Gatos",
+        "price": 35000,
+        "description": "Camita suave y cálida para el máximo confort de tu gato.",
+        "image": "https://via.placeholder.com/150?text=Camita"
+    },
+    {
+        "id": 186,
+        "categoryId": 8,
+        "name": "Arnés Reflectante para Gatos",
+        "price": 32000,
+        "description": "Arnés con detalles reflectantes para paseos nocturnos seguros.",
+        "image": "https://via.placeholder.com/150?text=Reflectante"
+    },
+    {
+        "id": 187,
+        "categoryId": 8,
+        "name": "Bolsa de Transporte para Gatos",
+        "price": 48000,
+        "description": "Bolsa de transporte cómoda y segura para llevar a tu gato.",
+        "image": "https://via.placeholder.com/150?text=Bolsa"
+    },
+    {
+        "id": 188,
+        "categoryId": 8,
+        "name": "Estante para Gatos",
+        "price": 41000,
+        "description": "Estante montable en pared para que tu gato explore a distintas alturas.",
+        "image": "https://via.placeholder.com/150?text=Estante"
+    },
+    {
+        "id": 189,
+        "categoryId": 8,
+        "name": "Juguete Interactivo con Sonido para Gatos",
+        "price": 27000,
+        "description": "Juguete que emite sonidos al moverse para estimular a tu gato.",
+        "image": "https://via.placeholder.com/150?text=Interactivo"
+    },
+    {
+        "id": 190,
+        "categoryId": 8,
+        "name": "Rascador Modular para Gatos",
+        "price": 36000,
+        "description": "Rascador modular que se adapta al espacio de tu hogar.",
+        "image": "https://via.placeholder.com/150?text=Modular"
+    },
+    {
+        "id": 191,
+        "categoryId": 8,
+        "name": "Alfombra Antideslizante para Gatos",
+        "price": 30000,
+        "description": "Alfombra que evita deslizamientos y es fácil de limpiar.",
+        "image": "https://via.placeholder.com/150?text=Alfombra"
+    },
+    {
+        "id": 192,
+        "categoryId": 8,
+        "name": "Cepillo de Pelo para Gatos",
+        "price": 18000,
+        "description": "Cepillo para mantener el pelaje de tu gato suave y libre de enredos.",
+        "image": "https://via.placeholder.com/150?text=Cepillo"
+    },
+    {
+        "id": 193,
+        "categoryId": 8,
+        "name": "Juguete de Cuerda para Gatos",
+        "price": 20000,
+        "description": "Cuerda interactiva que estimula el juego y la actividad.",
+        "image": "https://via.placeholder.com/150?text=Cuerda"
+    },
+    {
+        "id": 194,
+        "categoryId": 8,
+        "name": "Cama Elevada para Gatos",
+        "price": 40000,
+        "description": "Cama elevada que permite la circulación de aire para el descanso.",
+        "image": "https://via.placeholder.com/150?text=Elevada"
+    }
+
+]
