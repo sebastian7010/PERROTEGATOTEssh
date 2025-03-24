@@ -150,6 +150,7 @@ function renderCategory(categoryId) {
     const categoryProducts = products.filter(product => product.categoryId === categoryId);
     if (categoryProducts.length === 0) return;
 
+    // Obtener o crear la sección para la categoría
     let categorySection = document.getElementById(`category-${categoryId}`);
     if (!categorySection) {
         categorySection = document.createElement('section');
@@ -157,7 +158,6 @@ function renderCategory(categoryId) {
         categorySection.id = `category-${categoryId}`;
         container.appendChild(categorySection);
     }
-
 
     // Calcular el rango de productos a mostrar según la página actual
     const pageIndex = categoryPages[categoryId];
@@ -167,48 +167,52 @@ function renderCategory(categoryId) {
 
     // Renderizar el título y el carrusel
     categorySection.innerHTML = `
-    <h2 class="category-title">${categories.find(cat => cat.id === categoryId).title}</h2>
-    <div class="carousel-container">
-      <button class="carousel-btn prev-btn" onclick="changePage(${categoryId}, -1)">❮</button>
-      <div class="carousel-track grid-2x6">${generateProductGrid(productsToRender)}</div>
-      <button class="carousel-btn next-btn" onclick="changePage(${categoryId}, 1)">❯</button>
-    </div>
-  `;
+      <h2 class="category-title">${categories.find(cat => cat.id === categoryId).title}</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev-btn" onclick="changePage(${categoryId}, -1)">❮</button>
+        <div class="carousel-track grid-2x6">${generateProductGrid(productsToRender)}</div>
+        <button class="carousel-btn next-btn" onclick="changePage(${categoryId}, 1)">❯</button>
+      </div>
+    `;
 
-    // Asignar nuevamente los eventos a los botones de cantidad
+    // Asigna los eventos a los botones y a las imágenes
     attachEventListeners();
+    assignImageClickEvents(); // Esto es para que al hacer scroll, las imágenes respondan al click
 }
+
 
 /** Genera la grid de productos (disposición 6x2) con botón de compra **/
 function generateProductGrid(products) {
     let html = '<div class="carousel-page">';
-    // Se itera de a productsPerPage elementos
+    // Iterar a través de los productos y mostrarlos
     for (let i = 0; i < products.length; i += productsPerPage) {
         html += '<div class="carousel-row">';
         const rowProducts = products.slice(i, i + productsPerPage);
         rowProducts.forEach(product => {
+            // Usa product.gallery si existe; de lo contrario, usa product.image
+            const galleryArray = product.gallery && product.gallery.length ? product.gallery : [product.image];
+            const galleryData = JSON.stringify(galleryArray);
             html += `
-            <div class="product-card" data-id="${product.id}">
-              <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${JSON.stringify(
-                product.gallery && product.gallery.length ? product.gallery : [product.image]
-              )}'>
-              <div class="product-details">
-                <h3>${product.name}</h3>
-                <p>$${product.price.toLocaleString()}</p>
-                <div class="quantity-controls">
-                  <button class="quantity-btn minus" data-id="${product.id}">-</button>
-                  <span id="quantity-${product.id}">0</span>
-                  <button class="quantity-btn plus" data-id="${product.id}">+</button>
-                </div>
-                <button class="buy-btn" onclick="buyProduct(${product.id})">Comprar</button>
-              </div>
-            </div>`;
+        <div class="product-card" data-id="${product.id}">
+          <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${galleryData}' loading="lazy" width="300" height="300">
+          <div class="product-details">
+            <h3>${product.name}</h3>
+            <p>$${product.price.toLocaleString()}</p>
+            <div class="quantity-controls">
+              <button class="quantity-btn minus" data-id="${product.id}">-</button>
+              <span id="quantity-${product.id}">0</span>
+              <button class="quantity-btn plus" data-id="${product.id}">+</button>
+            </div>
+            <button class="buy-btn" onclick="buyProduct(${product.id})">Comprar</button>
+          </div>
+        </div>`;
         });
         html += '</div>'; // Cierra la fila
     }
     html += '</div>'; // Cierra la página
     return html;
 }
+
 
 
 

@@ -1,28 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 html,
 body {
-    font-family: 'Roboto', sans-serif;
-}
-
-
-/* General Styles */
-
-body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
     color: #333;
 }
 
-header {
-    background-color: #021A1A;
-    color: #00df82;
-    padding: 1rem;
+
+/* Animaciones básicas */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Clase para animar elementos */
+
+.animated {
+    opacity: 0;
+    /* Empiezan ocultos y se muestran al activarse la animación */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+
+/* Header */
+
+.header {
+    background: linear-gradient(29deg, #fe5c35, #faae42);
     text-align: center;
+    padding: 1rem;
 }
 
 .title {
     margin: 0;
     font-size: 2rem;
+    color: #000;
 }
 
 .navbar ul {
@@ -30,219 +51,99 @@ header {
     padding: 0;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 0.5rem 0 0 0;
 }
 
 .navbar li {
     margin: 0 1rem;
 }
 
-.navbar ul li a {
-    text-decoration: none;
-    /* Quitar subrayado */
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: transparent;
-    /* Sin fondo */
-    color: white;
-    /* Texto blanco */
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.navbar ul li a:hover {
-    color: #00df82;
-    /* Cambiar a verde en hover */
-}
-
 .nav-link {
-    color: white;
     text-decoration: none;
+    color: #000;
     font-size: 1rem;
-    transition: color 0.3s;
+    background-color: #f0ecea;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
 }
 
 .nav-link:hover {
-    color: #00df82;
+    background-color: rgb(255, 149, 0);
 }
+
+
+/* Main Content */
 
 .main-content {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-.about-us,
-.mission-vision,
-.values,
-.team {
+.section {
     margin-bottom: 2rem;
 }
 
-h2 {
+
+/* Títulos */
+
+.about-us h2,
+.mission-vision h3 {
     text-align: center;
-    color: #00df82;
+    color: #000;
     margin-bottom: 1rem;
 }
 
+
+/* Misión y Visión */
+
 .mission-vision {
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
 }
 
 .mission,
 .vision {
-    flex: 1;
-    background: #f4f4f4;
+    flex: 1 1 300px;
+    background-color: #f4f4f4;
     padding: 1rem;
-    border-radius: 8px;
-}
-
-.values ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.values li {
-    background: #f4f4f4;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.team-members {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.member {
-    text-align: center;
-}
-
-.team-photo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 
-/* Estilos del footer */
+/* Footer */
 
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 40px 0 20px;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-section {
-    flex: 1;
-    margin-bottom: 20px;
-    min-width: 200px;
-}
-
-.footer-section h3 {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-section a:hover {
-    color: #ffd700;
-}
-
-.newsletter-form {
-    display: flex;
-    margin-top: 15px;
-}
-
-.newsletter-form input[type="email"] {
-    flex-grow: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 4px 0 0 4px;
-}
-
-.newsletter-form button {
-    padding: 10px 15px;
-    background-color: #ffd700;
-    border: none;
-    color: #333;
-    font-weight: bold;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.newsletter-form button:hover {
-    background-color: #ffea00;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    font-size: 24px;
-    transition: color 0.3s ease;
-}
-
-.footer-bottom {
     text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #555;
+    padding: 1rem;
+    font-size: 0.9rem;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px;
+
+/* Responsividad */
+
+@media (max-width: 600px) {
+    .mission-vision {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
 }
 
-.social-icons a img {
-    width: 30px;
-    /* Ajusta el tamaño según lo necesario */
-    height: 30px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
 
-.social-icons a img:hover {
-    transform: scale(1.2);
-    /* Efecto de escala al pasar el cursor */
-    filter: brightness(1.5);
-    /* Hace que el ícono sea más brillante */
+/* Clase para cuando se active la animación */
+
+.fadeInUp {
+    animation: fadeInUp 0.8s forwards;
 }
