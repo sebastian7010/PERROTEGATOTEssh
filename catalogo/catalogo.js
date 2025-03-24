@@ -33,9 +33,10 @@ function renderProducts(productsToRender) {
     productsToRender.forEach(product => {
         const card = document.createElement("div");
         card.classList.add("product-card");
-        // Estructura de la card con controles de cantidad y lazy loading en la imagen
         card.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy" data-gallery='${JSON.stringify(product.gallery || [product.image])}'>
+      <img src="${product.image}" alt="${product.name}" class="product-image" 
+           loading="lazy" width="300" height="300" 
+           data-gallery='${JSON.stringify(product.gallery || [product.image])}'>
       <div class="product-details">
          <h3>${product.name}</h3>
          <p>$${product.price.toLocaleString()}</p>
@@ -51,11 +52,11 @@ function renderProducts(productsToRender) {
         fragment.appendChild(card);
     });
 
-    // Insertar el fragment en el contenedor de productos
     productGrid.appendChild(fragment);
 
-    // Asignar eventos a las imágenes y botones
+    // Reasignar eventos a las imágenes para que se agranden al clic (o abran modal)
     assignImageClickEvents();
+    // Asigna también los eventos a los botones de cantidad
     attachQuantityButtons();
 }
 
@@ -109,7 +110,7 @@ function initializeCategoryFilter() {
         if (selected === "all") {
             filteredProducts = products;
         } else {
-            // Convertir el valor a número si los categoryId en products son numéricos.
+            // Si los categoryId son numéricos, convertir el valor a número
             filteredProducts = products.filter(product => product.categoryId === Number(selected));
         }
         currentPage = 1;
@@ -270,7 +271,9 @@ function flyToCart(cardElement, isAdding) {
         });
     }
     setTimeout(() => {
-        if (clonedElement.parentNode) clonedElement.parentNode.removeChild(clonedElement);
+        if (clonedElement.parentNode) {
+            clonedElement.parentNode.removeChild(clonedElement);
+        }
     }, 900);
 }
 
@@ -302,10 +305,12 @@ function closeModal() {
 }
 document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-overlay').addEventListener('click', (event) => {
-    if (event.target === event.currentTarget) closeModal();
+    if (event.target === event.currentTarget) {
+        closeModal();
+    }
 });
 window.openModal = openModal;
-window.assignImageClickEvents = assignImageClickEvents; // Asegúrate de que assignImageClickEvents esté definida
+window.assignImageClickEvents = assignImageClickEvents; // Asegúrate de que assignImageClickEvents esté disponible
 
 /** Función para enviar el carrito a WhatsApp **/
 function sendCartToWhatsApp() {
