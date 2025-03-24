@@ -186,14 +186,12 @@ function generateProductGrid(products) {
         html += '<div class="carousel-row">';
         const rowProducts = products.slice(i, i + 6);
         rowProducts.forEach(product => {
-            // Si existe product.gallery, úsalo; si no, se usará product.image
-            const galleryArray = product.gallery && product.gallery.length ?
-                product.gallery : [product.image];
-            // Convertir el array a JSON para el atributo data-gallery
+            // Usa product.gallery si existe, sino product.image
+            const galleryArray = product.gallery && product.gallery.length ? product.gallery : [product.image];
             const galleryData = JSON.stringify(galleryArray);
             html += `
         <div class="product-card" data-id="${product.id}">
-          <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${galleryData}'>
+          <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${galleryData}' loading="lazy" width="300" height="300">
           <div class="product-details">
             <h3>${product.name}</h3>
             <p>$${product.price.toLocaleString()}</p>
@@ -206,11 +204,12 @@ function generateProductGrid(products) {
           </div>
         </div>`;
         });
-        html += '</div>'; // Cierra la fila
+        html += '</div>';
     }
-    html += '</div>'; // Cierra la página
+    html += '</div>';
     return html;
 }
+
 
 
 
