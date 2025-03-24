@@ -7,7 +7,7 @@ import { categories } from './categories.js';
 let cart = {}; // Objeto para el carrito (clave: productId, valor: cantidad)
 let products = []; // Lista de productos
 let fuse; // Instancia de Fuse.js para búsqueda
-const productsPerPage = 16;
+const productsPerPage = 15;
 let currentPage = 1;
 let filteredProducts = [];
 
