@@ -146,10 +146,11 @@ function renderCategory(categoryId) {
     const container = document.getElementById('carousels-container');
     if (!container) return;
 
-    // Filtrar los productos correspondientes a la categoría
+    // Filtrar los productos de la categoría
     const categoryProducts = products.filter(product => product.categoryId === categoryId);
     if (categoryProducts.length === 0) return;
 
+    // Obtener o crear la sección para la categoría
     let categorySection = document.getElementById(`category-${categoryId}`);
     if (!categorySection) {
         categorySection = document.createElement('section');
@@ -157,7 +158,6 @@ function renderCategory(categoryId) {
         categorySection.id = `category-${categoryId}`;
         container.appendChild(categorySection);
     }
-
 
     // Calcular el rango de productos a mostrar según la página actual
     const pageIndex = categoryPages[categoryId];
@@ -167,31 +167,34 @@ function renderCategory(categoryId) {
 
     // Renderizar el título y el carrusel
     categorySection.innerHTML = `
-    <h2 class="category-title">${categories.find(cat => cat.id === categoryId).title}</h2>
-    <div class="carousel-container">
-      <button class="carousel-btn prev-btn" onclick="changePage(${categoryId}, -1)">❮</button>
-      <div class="carousel-track grid-2x6">${generateProductGrid(productsToRender)}</div>
-      <button class="carousel-btn next-btn" onclick="changePage(${categoryId}, 1)">❯</button>
-    </div>
-  `;
+      <h2 class="category-title">${categories.find(cat => cat.id === categoryId).title}</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev-btn" onclick="changePage(${categoryId}, -1)">❮</button>
+        <div class="carousel-track grid-2x6">${generateProductGrid(productsToRender)}</div>
+        <button class="carousel-btn next-btn" onclick="changePage(${categoryId}, 1)">❯</button>
+      </div>
+    `;
 
-    // Asignar nuevamente los eventos a los botones de cantidad
+    // Asigna nuevamente los eventos a los botones de cantidad y a las imágenes
     attachEventListeners();
+    assignImageClickEvents(); // Esto asegura que, tras scroll o paginación, las imágenes respondan al clic
 }
+
 
 /** Genera la grid de productos (disposición 6x2) con botón de compra **/
 function generateProductGrid(products) {
     let html = '<div class="carousel-page">';
-    // Se itera de a productsPerPage elementos
+    // Itera sobre los productos
     for (let i = 0; i < products.length; i += productsPerPage) {
         html += '<div class="carousel-row">';
         const rowProducts = products.slice(i, i + productsPerPage);
         rowProducts.forEach(product => {
+            // Utiliza product.gallery si existe; de lo contrario, product.image
+            const galleryArray = product.gallery && product.gallery.length ? product.gallery : [product.image];
+            const galleryData = JSON.stringify(galleryArray);
             html += `
             <div class="product-card" data-id="${product.id}">
-              <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${JSON.stringify(
-                product.gallery && product.gallery.length ? product.gallery : [product.image]
-              )}'>
+              <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${galleryData}' loading="lazy" width="300" height="300">
               <div class="product-details">
                 <h3>${product.name}</h3>
                 <p>$${product.price.toLocaleString()}</p>
