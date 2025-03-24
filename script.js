@@ -175,6 +175,8 @@ function renderCategory(categoryId) {
 
     // Asignar nuevamente los eventos a los botones de cantidad
     attachEventListeners();
+
+    assignImageClickEvents();
 }
 
 /** Genera la grid de productos (disposición 6x2) con botón de compra **/
