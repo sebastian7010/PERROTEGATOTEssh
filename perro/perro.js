@@ -181,6 +181,7 @@ function renderCategory(categoryId) {
 }
 
 
+
 /** Genera la grid de productos (disposición 6x2) con botón de compra **/
 function generateProductGrid(products) {
     let html = '<div class="carousel-page">';
