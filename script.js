@@ -65,6 +65,7 @@ function renderSearchResults(results) {
     html += '</div>';
     container.innerHTML = html;
     attachEventListeners();
+    assignImageClickEvents();
 }
 
 /** Actualiza el carrito flotante (floating cart)
@@ -232,8 +233,9 @@ function buyProduct(productId) {
 
     // Si no se encuentra, se envía un mensaje genérico
     let message = product ?
-        `Hola, estoy interesado en comprar el producto: ${product.name}.` :
+        `Hola, quiero comprar ${product.name} por $${product.price.toLocaleString()}.` :
         "Hola, estoy interesado en comprar este producto.";
+
 
     // Número de WhatsApp (asegúrate de que esté en el formato correcto, sin símbolos ni espacios)
     const phone = "573108853158";
@@ -531,16 +533,17 @@ function openModal(imageElement) {
     modalOverlay.style.display = 'flex';
 }
 
-
 function assignImageClickEvents() {
-    const productImages = document.querySelectorAll('.product-image');
-    productImages.forEach(img => {
-        img.style.cursor = 'pointer'; // Para indicar que es clickeable
-        img.addEventListener('click', () => {
-            openModal(img);
-        });
+    const container = document.getElementById('carousels-container');
+    if (!container) return;
+    container.addEventListener('click', (e) => {
+        // Si el elemento clickeado tiene la clase "product-image", se abre el modal
+        if (e.target && e.target.classList.contains('product-image')) {
+            openModal(e.target);
+        }
     });
 }
+
 
 function closeModal() {
     const modalOverlay = document.getElementById('modal-overlay');

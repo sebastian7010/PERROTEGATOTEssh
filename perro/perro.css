@@ -1,8 +1,4 @@
-/* ===================================================
-   RESET & BASE STYLES
-   =================================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,17 +7,12 @@
 
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     background-color: #ffffff;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-
-
-/* ===================================================
-         SEARCH SECTION
-         =================================================== */
 
 .search-section {
     display: flex;
@@ -72,6 +63,7 @@ body {
 }
 
 .filter-btn {
+    font-family: 'Fira Sans', sans-serif;
     background-color: #ff7300;
     color: white;
     border: none;
@@ -141,6 +133,7 @@ body {
 }
 
 .navbar ul li a {
+    font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
     font-size: 1.5rem;
     padding: 0.5rem 1rem;

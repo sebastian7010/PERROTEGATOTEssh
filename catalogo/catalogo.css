@@ -1,5 +1,4 @@
-/* Reset global */
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     background-color: #f9f9f9;
     color: #333;
 }
@@ -45,6 +44,7 @@ body {
 
 .navbar ul li a,
 .navbar ul li button.nav-btn {
+    font-family: 'Fira Sans', sans-serif;
     color: rgb(250, 250, 250);
     font-size: 1.3rem;
     border: 2px solid white;
