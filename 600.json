@@ -2559,7 +2559,7 @@
             "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/040arrness3.jpg"
         ]
     },
-
+    
     {
         "id": 489,
         "categoryId": 1,
@@ -11443,7 +11443,7 @@
         "id": 131,
         "categoryId": 6,
         "name": "Royal Canin Alimento para Gato Regular Sterilised 37",
-        "price": 243.790,
+        "price":  243.790,
         "description": "Alimento para gatos adultos, mayores a 12 meses, de todas las razas castrados. Ideal para mantener el peso adecuado de tu felino, buena tonicidad muscular y prevenir problemas renales. Alimento formulado para gatos castrados.",
         "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejeje.webp",
         "gallery": [

@@ -3,7 +3,7 @@ const fs = require('fs');
 
 try {
     // Lee el archivo original "007.json"
-    const rawData = fs.readFileSync('007.json', 'utf-8');
+    const rawData = fs.readFileSync('8.json', 'utf-8');
     const products = JSON.parse(rawData);
 
     const convertedProducts = products.map(item => {
@@ -31,7 +31,7 @@ try {
     });
 
     // Escribe el resultado en un nuevo archivo "007_convertido.json"
-    fs.writeFileSync('007_convertido.json', JSON.stringify(convertedProducts, null, 2), 'utf-8');
+    fs.writeFileSync('8_convertido.json', JSON.stringify(convertedProducts, null, 2), 'utf-8');
     console.log("Conversión completada. Archivo guardado como '007_convertido.json'");
 } catch (error) {
     console.error("Error al convertir el archivo:", error);

@@ -11442,14 +11442,14 @@
     {
         "id": 131,
         "categoryId": 6,
-        "name": "Royal Canin Alimento para Gato Regular Sterilised 37",
-        "price": 243.790,
-        "description": "Alimento para gatos adultos, mayores a 12 meses, de todas las razas castrados. Ideal para mantener el peso adecuado de tu felino, buena tonicidad muscular y prevenir problemas renales. Alimento formulado para gatos castrados.",
-        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejeje.webp",
+        "name": "Royal Canin Alimento para Gatos Adultos Moderadamente Activos",
+        "price": 242535,
+        "description": "Es una comida para gatos adultos entre 1 y 7 años que realizan actividad moderada. Este alimento para gato contiene 52 nutrientes fundamentales que ayudan a mejorar la salud general, a eliminar la cantidad de bolas de pelos y a fortalecer las defensas naturales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc020.webp",
         "gallery": [
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejejeje.webp",
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejeje.webp",
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejejeje.webp"
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc021.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc021.webp"
         ]
     },
     {
@@ -11533,14 +11533,14 @@
     {
         "id": 138,
         "categoryId": 6,
-        "name": "Royal Canin Alimento para Gatitos Esterilizado",
-        "price": 137695,
-        "description": "Es un alimento completo, equilibrado, especialmente para los gatitos esterilizados de 6 a 12 meses de edad. Contiene nutrientes que incluyen vitaminas C y E, para contribuir al desarrollo del sistema inmunitario.",
-        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last1.webp",
+        "name": "Royal Canin Hydrolyzed Protein Alimento para Gato",
+        "price": 288390,
+        "description": "Es un alimento completo dietético para gatos formulado para reducir las intolerancias a ingredientes y nutrientes. Esta dieta contiene una selección de fuentes de proteínas y carbohidratos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc090.webp",
         "gallery": [
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last2.webp",
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last1.webp",
-            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last3.webp"
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc090.webp"
         ]
     },
     {
