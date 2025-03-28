@@ -1,116 +1,2666 @@
 [{
-        "id": 1,
-        "categoryId": 1,
-        "name": "Collar para Perro",
-        "price": 45000,
-        "description": "Collar ajustable para perros pequeños y medianos",
-        "image": "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
+        "id": 635,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa010.jpg",
         "gallery": [
-            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
-            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg",
-            "https://ae01.alicdn.com/kf/Hb74e6b70d11841379b0673bbacfbbf69P/Collar-ajustable-para-perro-y-gato-Collar-duradero-de-alta-calidad-a-la-moda-peque-os.jpg"
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa012.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa010.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa012.jpg"
         ]
     },
-    { "id": 2, "categoryId": 5, "name": "Correa para Perro", "price": 25000, "description": "Correa resistente de nylon", "image": "https://th.bing.com/th/id/R.d8d9acae7b5e907b3d617507fc89188c?rik=E9nJq3VYJdC4UA&pid=ImgRaw&r=0" },
-    { "id": 3, "categoryId": 5, "name": "Abrigo para Perro", "price": 80000, "description": "Abrigo impermeable para clima frío", "image": "https://via.placeholder.com/150?text=Abrigo" },
-    { "id": 4, "categoryId": 5, "name": "Zapatos para Perro", "price": 50000, "description": "Zapatos antideslizantes para perros", "image": "https://via.placeholder.com/150?text=Zapatos" },
-    { "id": 5, "categoryId": 5, "name": "Sombrero para Perro", "price": 30000, "description": "Sombrero divertido para perros", "image": "https://via.placeholder.com/150?text=Sombrero" },
-    { "id": 6, "categoryId": 5, "name": "Cama para Perro", "price": 150000, "description": "Cama cómoda y resistente", "image": "https://via.placeholder.com/150?text=Cama" },
-    { "id": 7, "categoryId": 51, "name": "Mochila para Perro", "price": 70000, "description": "Mochila ligera para perros", "image": "https://via.placeholder.com/150?text=Mochila" },
-    { "id": 8, "categoryId": 5, "name": "Pañuelo para Perro", "price": 20000, "description": "Pañuelo decorativo", "image": "https://via.placeholder.com/150?text=Pañuelo" },
-    { "id": 9, "categoryId": 5, "name": "Gafas para Perro", "price": 40000, "description": "Gafas de sol protectoras", "image": "https://via.placeholder.com/150?text=Gafas" },
-    { "id": 10, "categoryId": 5, "name": "Cepillo para Perro", "price": 25000, "description": "Cepillo para el pelo", "image": "https://via.placeholder.com/150?text=Cepillo" },
-    { "id": 11, "categoryId": 5, "name": "Bolsa de Transporte", "price": 80000, "description": "Bolsa para transportar perros pequeños", "image": "https://via.placeholder.com/150?text=Bolsa" },
-    { "id": 12, "categoryId": 5, "name": "Plato para Perro", "price": 20000, "description": "Plato resistente de acero inoxidable", "image": "https://via.placeholder.com/150?text=Plato" },
-    { "id": 13, "categoryId": 5, "name": "Juguete Mordedor", "price": 35000, "description": "Juguete resistente para morder", "image": "https://via.placeholder.com/150?text=Juguete" },
-    { "id": 14, "categoryId": 5, "name": "Arnés para Perro", "price": 60000, "description": "Arnés ajustable para perros", "image": "https://via.placeholder.com/150?text=Arnés" },
-    { "id": 15, "categoryId": 5, "name": "Botella de Agua Portátil", "price": 30000, "description": "Botella para hidratar a tu perro en paseos", "image": "https://via.placeholder.com/150?text=Botella" },
-    { "id": 16, "categoryId": 5, "name": "Bolsas para Desechos", "price": 10000, "description": "Bolsas biodegradables para desechos", "image": "https://via.placeholder.com/150?text=Bolsas" },
-    { "id": 17, "categoryId": 5, "name": "Chaleco Salvavidas", "price": 90000, "description": "Chaleco salvavidas para perros", "image": "https://via.placeholder.com/150?text=Chaleco" },
-    { "id": 18, "categoryId": 5, "name": "Rascador para Perro", "price": 55000, "description": "Rascador para aliviar picazón", "image": "https://via.placeholder.com/150?text=Rascador" },
-    { "id": 19, "categoryId": 5, "name": "Tazón Antideslizante", "price": 25000, "description": "Tazón que no se desliza mientras come", "image": "https://via.placeholder.com/150?text=Tazón" },
-    { "id": 20, "categoryId": 5, "name": "Snacks Saludables", "price": 20000, "description": "Snacks ricos y nutritivos", "image": "https://via.placeholder.com/150?text=Snacks" },
-    { "id": 21, "categoryId": 5, "name": "Kit de Limpieza", "price": 75000, "description": "Set completo para limpieza de perros", "image": "https://via.placeholder.com/150?text=Kit" },
-    { "id": 22, "categoryId": 5, "name": "Camisa para Perro", "price": 40000, "description": "Camisa cómoda y moderna", "image": "https://via.placeholder.com/150?text=Camisa" },
-    { "id": 23, "categoryId": 5, "name": "Cuerda para Perros", "price": 18000, "description": "Cuerda para juegos de tirón", "image": "https://via.placeholder.com/150?text=Cuerda" },
-    { "id": 24, "categoryId": 5, "name": "Tienda para Perros", "price": 120000, "description": "Casa portátil para perros", "image": "https://via.placeholder.com/150?text=Tienda" },
-    { "id": 25, "categoryId": 5, "name": "Juguete Interactivo", "price": 50000, "description": "Juguete para estimular la mente", "image": "https://via.placeholder.com/150?text=Interactivo" },
-    { "id": 26, "categoryId": 5, "name": "Disco Volador", "price": 30000, "description": "Juguete para lanzar y recoger", "image": "https://via.placeholder.com/150?text=Disco" },
-    { "id": 27, "categoryId": 5, "name": "Collar Antipulgas", "price": 55000, "description": "Collar que protege contra pulgas", "image": "https://via.placeholder.com/150?text=Antipulgas" },
-
-
-    { "id": 28, "categoryId": 6, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
-    { "id": 29, "categoryId": 6, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
-    { "id": 30, "categoryId": 6, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
-    { "id": 31, "categoryId": 6, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
-    { "id": 32, "categoryId": 6, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
-    { "id": 33, "categoryId": 6, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
-    { "id": 34, "categoryId": 6, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
-    { "id": 35, "categoryId": 6, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
-    { "id": 36, "categoryId": 6, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 37, "categoryId": 6, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
-    { "id": 38, "categoryId": 6, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
-    { "id": 39, "categoryId": 6, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
-    { "id": 40, "categoryId": 6, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
-    { "id": 41, "categoryId": 6, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
-    { "id": 42, "categoryId": 6, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
-    { "id": 43, "categoryId": 6, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
-    { "id": 44, "categoryId": 6, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
-    { "id": 45, "categoryId": 6, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
-    { "id": 46, "categoryId": 6, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
-    { "id": 47, "categoryId": 6, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
-    { "id": 48, "categoryId": 6, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
-    { "id": 49, "categoryId": 6, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
-    { "id": 50, "categoryId": 6, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 51, "categoryId": 6, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" },
-
-    { "id": 52, "categoryId": 7, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
-    { "id": 53, "categoryId": 7, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
-    { "id": 54, "categoryId": 7, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
-    { "id": 55, "categoryId": 7, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
-    { "id": 56, "categoryId": 7, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
-    { "id": 57, "categoryId": 7, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
-    { "id": 58, "categoryId": 7, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
-    { "id": 59, "categoryId": 7, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
-    { "id": 60, "categoryId": 7, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 61, "categoryId": 7, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
-    { "id": 62, "categoryId": 7, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
-    { "id": 63, "categoryId": 7, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
-    { "id": 64, "categoryId": 7, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
-    { "id": 65, "categoryId": 7, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
-    { "id": 66, "categoryId": 7, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
-    { "id": 67, "categoryId": 7, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
-    { "id": 68, "categoryId": 7, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
-    { "id": 69, "categoryId": 7, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
-    { "id": 70, "categoryId": 7, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
-    { "id": 71, "categoryId": 7, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
-    { "id": 72, "categoryId": 7, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
-    { "id": 73, "categoryId": 7, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
-    { "id": 74, "categoryId": 7, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 75, "categoryId": 7, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" },
-
-    { "id": 76, "categoryId": 8, "name": "Comida Premium para Perros", "price": 85000, "description": "Alimento de alta calidad para perros exigentes", "image": "https://via.placeholder.com/150?text=Comida+Premium" },
-    { "id": 77, "categoryId": 8, "name": "Snacks Saludables", "price": 45000, "description": "Bocadillos ricos y nutritivos para perros", "image": "https://via.placeholder.com/150?text=Snacks" },
-    { "id": 78, "categoryId": 8, "name": "Croquetas Húmedas", "price": 75000, "description": "Comida húmeda de calidad premium", "image": "https://via.placeholder.com/150?text=Croquetas" },
-    { "id": 79, "categoryId": 8, "name": "Barritas Masticables", "price": 55000, "description": "Barritas deliciosas para perros activos", "image": "https://via.placeholder.com/150?text=Barritas" },
-    { "id": 80, "categoryId": 8, "name": "Comida Especial para Cachorros", "price": 80000, "description": "Nutrición completa para los más pequeños", "image": "https://via.placeholder.com/150?text=Cachorros" },
-    { "id": 81, "categoryId": 8, "name": "Alimento Hipoalergénico", "price": 95000, "description": "Ideal para perros con sensibilidad alimentaria", "image": "https://via.placeholder.com/150?text=Hipoalergénico" },
-    { "id": 82, "categoryId": 8, "name": "Comida Baja en Grasa", "price": 70000, "description": "Para perros que necesitan controlar su peso", "image": "https://via.placeholder.com/150?text=Baja+Grasa" },
-    { "id": 83, "categoryId": 8, "name": "Comida Gourmet para Perros", "price": 100000, "description": "Una experiencia de sabor premium", "image": "https://via.placeholder.com/150?text=Gourmet" },
-    { "id": 84, "categoryId": 8, "name": "Croquetas Orgánicas", "price": 87000, "description": "Ingredientes 100% orgánicos y frescos", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 85, "categoryId": 8, "name": "Comida para Perros Senior", "price": 89000, "description": "Nutrición adaptada para perros mayores", "image": "https://via.placeholder.com/150?text=Senior" },
-    { "id": 86, "categoryId": 8, "name": "Comida Deshidratada", "price": 78000, "description": "Sabor y frescura en cada porción", "image": "https://via.placeholder.com/150?text=Deshidratada" },
-    { "id": 87, "categoryId": 8, "name": "Croquetas de Salmón", "price": 91000, "description": "Ricas en omega-3 para un pelaje brillante", "image": "https://via.placeholder.com/150?text=Salmón" },
-    { "id": 88, "categoryId": 8, "name": "Alimento para Perros Activos", "price": 83000, "description": "Energía para perros que se mueven mucho", "image": "https://via.placeholder.com/150?text=Activos" },
-    { "id": 89, "categoryId": 8, "name": "Comida Económica para Perros", "price": 45000, "description": "Calidad al mejor precio", "image": "https://via.placeholder.com/150?text=Económica" },
-    { "id": 90, "categoryId": 8, "name": "Snacks con Vitaminas", "price": 30000, "description": "Snacks enriquecidos para perros saludables", "image": "https://via.placeholder.com/150?text=Vitaminas" },
-    { "id": 91, "categoryId": 8, "name": "Alimento en Lata", "price": 56000, "description": "Comida húmeda de sabor irresistible", "image": "https://via.placeholder.com/150?text=Lata" },
-    { "id": 92, "categoryId": 8, "name": "Comida para Perros Grandes", "price": 85000, "description": "Raciones para razas grandes", "image": "https://via.placeholder.com/150?text=Grandes" },
-    { "id": 93, "categoryId": 8, "name": "Alimento para Razas Pequeñas", "price": 72000, "description": "Ideal para perros pequeños", "image": "https://via.placeholder.com/150?text=Pequeñas" },
-    { "id": 94, "categoryId": 8, "name": "Comida Balanceada", "price": 88000, "description": "Equilibrio perfecto de nutrientes", "image": "https://via.placeholder.com/150?text=Balanceada" },
-    { "id": 95, "categoryId": 8, "name": "Croquetas de Pollo", "price": 81000, "description": "El sabor favorito de todos los perros", "image": "https://via.placeholder.com/150?text=Pollo" },
-    { "id": 96, "categoryId": 8, "name": "Snack Masticable", "price": 27000, "description": "Entretenimiento y sabor", "image": "https://via.placeholder.com/150?text=Masticable" },
-    { "id": 97, "categoryId": 8, "name": "Comida Vegana", "price": 90000, "description": "Ideal para dueños y perros veganos", "image": "https://via.placeholder.com/150?text=Vegana" },
-    { "id": 98, "categoryId": 8, "name": "Barritas Orgánicas", "price": 39000, "description": "Barras saludables y deliciosas", "image": "https://via.placeholder.com/150?text=Orgánicas" },
-    { "id": 99, "categoryId": 8, "name": "Bolsa Familiar de Comida", "price": 105000, "description": "Rendimiento para toda la familia canina", "image": "https://via.placeholder.com/150?text=Familiar" }
+    {
+        "id": 636,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa020.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa020.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa021.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa020.jpg"
+        ]
+    },
+    {
+        "id": 637,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa030.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa030.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa030.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa030.jpg"
+        ]
+    },
+    {
+        "id": 638,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa040.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa040.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa040.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa040.jpg"
+        ]
+    },
+    {
+        "id": 639,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa050.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa050.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa050.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa050.jpg"
+        ]
+    },
+    {
+        "id": 640,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa060.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa060.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa060.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa060.jpg"
+        ]
+    },
+    {
+        "id": 641,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa070.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa070.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa070.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa070.jpg"
+        ]
+    },
+    {
+        "id": 642,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa080.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa080.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa080.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa080.jpg"
+        ]
+    },
+    {
+        "id": 643,
+        "categoryId": 5,
+        "name": "ropa para gato o perro",
+        "price": 50000,
+        "description": "ropa para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa090.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa090.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa090.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ropa090.jpg"
+        ]
+    },
+    {
+        "id": 644,
+        "categoryId": 5,
+        "name": "casa color beige",
+        "price": 135500,
+        "description": "casa color beige ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab010.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab010.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab010.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab010.jpg"
+        ]
+    },
+    {
+        "id": 645,
+        "categoryId": 5,
+        "name": "casa color rojo",
+        "price": 135500,
+        "description": "casa color rojo ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab020.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab020.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab020.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casab020.jpg"
+        ]
+    },
+    {
+        "id": 646,
+        "categoryId": 5,
+        "name": "casa para gato",
+        "price": 150000,
+        "description": "casa para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag010.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag010.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag010.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag010.jpg"
+        ]
+    },
+    {
+        "id": 647,
+        "categoryId": 5,
+        "name": "casa para gato",
+        "price": 150000,
+        "description": "casa para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag020.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag020.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag020.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/casag020.jpg"
+        ]
+    },
+    {
+        "id": 648,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA1.jpg"
+        ]
+    },
+    {
+        "id": 649,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA2.jpg"
+        ]
+    },
+    {
+        "id": 650,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA3.jpg"
+        ]
+    },
+    {
+        "id": 651,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA4.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA4.jpg"
+        ]
+    },
+    {
+        "id": 652,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA5.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA5.jpg"
+        ]
+    },
+    {
+        "id": 653,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA6.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA6.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA6.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA6.jpg"
+        ]
+    },
+    {
+        "id": 654,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA7.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA7.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA7.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA7.jpg"
+        ]
+    },
+    {
+        "id": 655,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA8.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA8.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA8.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA8.jpg"
+        ]
+    },
+    {
+        "id": 656,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 120000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA9.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA9.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA9.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaA9.jpg"
+        ]
+    },
+    {
+        "id": 657,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 150000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt1.jpg"
+        ]
+    },
+    {
+        "id": 658,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 150000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt2.jpg"
+        ]
+    },
+    {
+        "id": 659,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 150000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt3.jpg"
+        ]
+    },
+    {
+        "id": 660,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 175000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt01.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt01.jpg"
+        ]
+    },
+    {
+        "id": 661,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 175000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt02.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt02.jpg"
+        ]
+    },
+    {
+        "id": 662,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 175000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt03.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt03.jpg"
+        ]
+    },
+    {
+        "id": 663,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 175000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt04.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt04.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt04.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAt04.jpg"
+        ]
+    },
+    {
+        "id": 664,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 190000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT1.jpg"
+        ]
+    },
+    {
+        "id": 665,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 190000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT2.jpg"
+        ]
+    },
+    {
+        "id": 666,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 190000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT3.jpg"
+        ]
+    },
+    {
+        "id": 667,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 190000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT4.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT4.jpg"
+        ]
+    },
+    {
+        "id": 668,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 175000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT5.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaTT5.jpg"
+        ]
+    },
+    {
+        "id": 669,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 200000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA1.jpg"
+        ]
+    },
+    {
+        "id": 670,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 200000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA6.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA3.jpg"
+        ]
+    },
+    {
+        "id": 671,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 200000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA7.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA7.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA8.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA7.jpg"
+        ]
+    },
+    {
+        "id": 672,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 200000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA4.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA4.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA4.jpg"
+        ]
+    },
+    {
+        "id": 673,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 200000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maletaAA2.jpg"
+        ]
+    },
+    {
+        "id": 674,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 210000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt1.jpg"
+        ]
+    },
+    {
+        "id": 675,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 210000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt2.jpg"
+        ]
+    },
+    {
+        "id": 676,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 210000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malt4.jpg"
+        ]
+    },
+    {
+        "id": 677,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male1.jpg"
+        ]
+    },
+    {
+        "id": 678,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male2.jpg"
+        ]
+    },
+    {
+        "id": 679,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male3.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male3.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male11.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male3.jpg"
+        ]
+    },
+    {
+        "id": 680,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male4.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male4.1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male4.2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male4.3.jpg"
+        ]
+    },
+    {
+        "id": 681,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male5.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male5.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male5.jpg"
+        ]
+    },
+    {
+        "id": 682,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male7.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male7.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male7.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male7.jpg"
+        ]
+    },
+    {
+        "id": 683,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 250000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male10.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male10.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male10.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/male10.jpg"
+        ]
+    },
+    {
+        "id": 684,
+        "categoryId": 5,
+        "name": "maleta para gato o perro",
+        "price": 325000,
+        "description": "maleta para gato o perro ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malet.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malet.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malett.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/malet.jpg"
+        ]
+    },
+    {
+        "id": 685,
+        "categoryId": 5,
+        "name": "comida para gato",
+        "price": 180000,
+        "description": "comida para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food180.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food180.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food180.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food180.jpg"
+        ]
+    },
+    {
+        "id": 686,
+        "categoryId": 5,
+        "name": "comida para gato",
+        "price": 65000,
+        "description": "comida para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A1.jpg"
+        ]
+    },
+    {
+        "id": 687,
+        "categoryId": 5,
+        "name": "comida para gato",
+        "price": 65000,
+        "description": "comida para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A2.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food65A2.jpg"
+        ]
+    },
+    {
+        "id": 688,
+        "categoryId": 5,
+        "name": "comida para gato",
+        "price": 40000,
+        "description": "comida para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food40A.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food40A.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food40A.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/food40A.jpg"
+        ]
+    },
+    {
+        "id": 689,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 110000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/110arena1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/110arena1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/110arena2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/110arena1.jpg"
+        ]
+    },
+    {
+        "id": 690,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 105000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena1.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena1.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena2.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena1.jpg"
+        ]
+    },
+    {
+        "id": 691,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 105000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena0.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena.jpg"
+        ]
+    },
+    {
+        "id": 692,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 105000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena01.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/105arena01.jpg"
+        ]
+    },
+    {
+        "id": 693,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 75000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre01.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre01.jpg"
+        ]
+    },
+    {
+        "id": 694,
+        "categoryId": 5,
+        "name": "arenero para gatos",
+        "price": 75000,
+        "description": "arenero para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre03.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre04.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/arre03.jpg"
+        ]
+    },
+    {
+        "id": 695,
+        "categoryId": 5,
+        "name": "pala para gatos",
+        "price": 9000,
+        "description": "pala para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa001.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa001.jpg"
+        ]
+    },
+    {
+        "id": 696,
+        "categoryId": 5,
+        "name": "pala para gatos",
+        "price": 9000,
+        "description": "pala para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/pala001.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/pala001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/pala001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/pala001.jpg"
+        ]
+    },
+    {
+        "id": 697,
+        "categoryId": 5,
+        "name": "pala para gatos",
+        "price": 9000,
+        "description": "pala para gatos ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa002.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa002.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa002.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/palaa002.jpg"
+        ]
+    },
+    {
+        "id": 698,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 50000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/005plat2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/005plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/005plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/005plat2.JPG"
+        ]
+    },
+    {
+        "id": 699,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 50000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat1.JPG"
+        ]
+    },
+    {
+        "id": 700,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 50000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat2.JPG"
+        ]
+    },
+    {
+        "id": 701,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 50000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050plat3.JPG"
+        ]
+    },
+    {
+        "id": 702,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat1.JPG"
+        ]
+    },
+    {
+        "id": 703,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat2.JPG"
+        ]
+    },
+    {
+        "id": 704,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat3.JPG"
+        ]
+    },
+    {
+        "id": 705,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat4.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat4.JPG"
+        ]
+    },
+    {
+        "id": 706,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat5.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat5.JPG"
+        ]
+    },
+    {
+        "id": 707,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat6.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat6.JPG"
+        ]
+    },
+    {
+        "id": 708,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat7.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat7.JPG"
+        ]
+    },
+    {
+        "id": 709,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat8.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat8.JPG"
+        ]
+    },
+    {
+        "id": 710,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 20000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat9.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020plat9.JPG"
+        ]
+    },
+    {
+        "id": 711,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat1.JPG"
+        ]
+    },
+    {
+        "id": 712,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat2.JPG"
+        ]
+    },
+    {
+        "id": 713,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat3.JPG"
+        ]
+    },
+    {
+        "id": 714,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat4.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat4.JPG"
+        ]
+    },
+    {
+        "id": 715,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat5.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat5.JPG"
+        ]
+    },
+    {
+        "id": 716,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat6.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat6.JPG"
+        ]
+    },
+    {
+        "id": 717,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat7.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat7.JPG"
+        ]
+    },
+    {
+        "id": 718,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat8.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat8.JPG"
+        ]
+    },
+    {
+        "id": 719,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat9.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat9.JPG"
+        ]
+    },
+    {
+        "id": 720,
+        "categoryId": 5,
+        "name": "Platos para perro",
+        "price": 12000,
+        "description": "Platos para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat10.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat10.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat10.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/012plat10.JPG"
+        ]
+    },
+    {
+        "id": 721,
+        "categoryId": 5,
+        "name": "Churu Snack para gatos",
+        "price": 15300,
+        "description": "Churu Snack para gatos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd4.png",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd4.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd4.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd4.png"
+        ]
+    },
+    {
+        "id": 722,
+        "categoryId": 5,
+        "name": "churu Atún snack cremoso para gato",
+        "price": 14300,
+        "description": "churu Atún snack cremoso para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png"
+        ]
+    },
+    {
+        "id": 723,
+        "categoryId": 5,
+        "name": "churu Atún snack cremoso para gato",
+        "price": 14300,
+        "description": "churu Atún snack cremoso para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png"
+        ]
+    },
+    {
+        "id": 724,
+        "categoryId": 5,
+        "name": "churu Atún snack cremoso para gato",
+        "price": 14300,
+        "description": "churu Atún snack cremoso para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd6.png"
+        ]
+    },
+    {
+        "id": 725,
+        "categoryId": 5,
+        "name": "Corta uñas electrico",
+        "price": 45000,
+        "description": "Corta uñas electrico vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/045gamm3.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/045gamm3.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/045gamm3.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/045gamm3.jpeg"
+        ]
+    },
+    {
+        "id": 726,
+        "categoryId": 5,
+        "name": "Cepillo recoje pelos con vapor",
+        "price": 30000,
+        "description": "Cepillo recoje pelos con vapor vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030gamm1.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030gamm2.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030gamm1.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030gamm3.jpeg"
+        ]
+    },
+    {
+        "id": 727,
+        "categoryId": 5,
+        "name": "Cepill oquita pelos",
+        "price": 25000,
+        "description": "Cepill oquita pelos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm1.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm1.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm1.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm1.jpeg"
+        ]
+    },
+    {
+        "id": 728,
+        "categoryId": 5,
+        "name": "Corta uñas electrico",
+        "price": 25000,
+        "description": "Corta uñas electrico vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm2.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm2.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm2.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm2.jpeg"
+        ]
+    },
+    {
+        "id": 729,
+        "categoryId": 5,
+        "name": "Corta uñas electrico",
+        "price": 25000,
+        "description": "Corta uñas electrico vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm3.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm3.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm3.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm3.jpeg"
+        ]
+    },
+    {
+        "id": 730,
+        "categoryId": 5,
+        "name": "Hierba gatera",
+        "price": 25000,
+        "description": "Hierba gatera vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm4.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm4.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm4.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm4.jpeg"
+        ]
+    },
+    {
+        "id": 731,
+        "categoryId": 5,
+        "name": "Cepillo de vapor para perro",
+        "price": 20000,
+        "description": "Cepillo de vapor para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap1.JPG"
+        ]
+    },
+    {
+        "id": 732,
+        "categoryId": 5,
+        "name": "Cepillo de vapor para perro",
+        "price": 20000,
+        "description": "Cepillo de vapor para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020vap2.JPG"
+        ]
+    },
+    {
+        "id": 733,
+        "categoryId": 5,
+        "name": "Tapete para gato",
+        "price": 20000,
+        "description": "Tapete para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete1.JPG"
+        ]
+    },
+    {
+        "id": 734,
+        "categoryId": 5,
+        "name": "teteros para perro",
+        "price": 20000,
+        "description": "teteros para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete1.JPG"
+        ]
+    },
+    {
+        "id": 735,
+        "categoryId": 5,
+        "name": "teteros para perro",
+        "price": 20000,
+        "description": "teteros para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tete2.JPG"
+        ]
+    },
+    {
+        "id": 736,
+        "categoryId": 5,
+        "name": "Plato de comida con temporizador",
+        "price": 150000,
+        "description": "Plato de comida con temporizador vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/150prem1.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/150prem1.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/150prem1.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/150prem1.jpeg"
+        ]
+    },
+    {
+        "id": 737,
+        "categoryId": 5,
+        "name": "Pack tapete x10 para perros y gatos",
+        "price": 25000,
+        "description": "Pack tapete x10 para perros y gatos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm6.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm6.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm6.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/025gamm6.jpeg"
+        ]
+    },
+    {
+        "id": 738,
+        "categoryId": 5,
+        "name": "Spry hierba gatera",
+        "price": 20000,
+        "description": "Spry hierba gatera vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm8.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm8.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm9.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm8.jpeg"
+        ]
+    },
+    {
+        "id": 739,
+        "categoryId": 5,
+        "name": "Petys Paños húmedos",
+        "price": 16830,
+        "description": "Petys Paños húmedos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd5.png",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd5.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd5.png",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/000catsd5.png"
+        ]
+    },
+    {
+        "id": 740,
+        "categoryId": 5,
+        "name": "pala gramera para perro",
+        "price": 40000,
+        "description": "pala gramera para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/040nnd1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/040nnd1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/040nnd1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/040nnd1.JPG"
+        ]
+    },
+    {
+        "id": 741,
+        "categoryId": 6,
+        "name": "Taste of the Wild Alimento para Gatos Canyon River Trucha y Salmón",
+        "price": 116450,
+        "description": "descripcioooooon",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts010.webp"
+        ]
+    },
+    {
+        "id": 742,
+        "categoryId": 6,
+        "name": "Taste Of The Wild Alimento para Gato Presa de Pavo",
+        "price": 355750,
+        "description": "descripcioooooon",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts020.webp"
+        ]
+    },
+    {
+        "id": 743,
+        "categoryId": 6,
+        "name": "Taste Of The Wild - Rocky Mountain Feline Venado Y Salmón 6,36kilos",
+        "price": 289700,
+        "description": "descripcioooooon",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ts030.webp"
+        ]
+    },
+    {
+        "id": 744,
+        "categoryId": 6,
+        "name": "Hill's Prescription Diet Feline K/D con Pollo",
+        "price": 174200,
+        "description": "Está indicado para reducir la frecuencia de los episodios urémicos y apoyar la supervivencia de los gatos con enfermedad renal.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl011.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl011.webp"
+        ]
+    },
+    {
+        "id": 745,
+        "categoryId": 6,
+        "name": "Hill´s Alimento para Gatos Adultos Indoor 1-6 Pollo",
+        "price": 125600,
+        "description": "Está diseñado para gatos que llevan un estilo de vida más sedentario. Formulado con antioxidantes proteínas y ácidos grasos añadidos. Elaborado con ingredientes de elevada calidad para un excelente sabor. 100 % garantizado. Estas dosis son únicamente un punto de referencia, ya que las necesidades de los animales varían. Ajustar la cantidad diaria de alimento para mantener el peso corporal óptimo.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl021.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl021.webp"
+        ]
+    },
+    {
+        "id": 746,
+        "categoryId": 6,
+        "name": "Hills Alimento Para Gatos Adulto Optimal Care",
+        "price": 128100,
+        "description": "Es un alimento que está especialmente formulado para proporcionar la cantidad de energía adecuada, para favorecer el peso ideal en gatos adultos de 1 a 6 años de edad, elaborado con ingredientes de alta calidad fáciles de digerir.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl031.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl031.webp"
+        ]
+    },
+    {
+        "id": 747,
+        "categoryId": 6,
+        "name": "Hills Alimento para Gato Adulto Hairball Control",
+        "price": 131900,
+        "description": "Es un delicioso alimento recomendado para gatos adultos entre 1 y 6 años propensos a generar bolas de pelos, que usa una tecnología de única fibra natural, que disminuye considerablemente las bolas de pelo en 30 días. Con vitamina E, omega-3 y -6 para una piel y pelaje hermoso, proteína de alta calidad para músculos magros, proteína de pollo de alta calidad para una comida nutritiva, llena de sabor.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl041.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl041.webp"
+        ]
+    },
+    {
+        "id": 748,
+        "categoryId": 6,
+        "name": "Hills Alimento Para Gato Adult Salmón",
+        "price": 18400,
+        "description": "Proteína de alta calidad para desarrollar músculos magros. Fabricado con ingredientes útiles para una comida sabrosa y nutritiva. Contiene 156 gramos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl050.webp"
+        ]
+    },
+    {
+        "id": 749,
+        "categoryId": 6,
+        "name": "Hills Alimento para Gato Perfect Weight Adulto",
+        "price": 102600,
+        "description": "Alimento para gatos que proporciona una nutrición innovadora, formulada para ayudar a su gato a lograr un peso saludable y mejorar la calidad de vida. Está especialmente formulado para proporcionar la cantidad de energía adecuada para favorecer el peso ideal en gatos adultos de 1 a 6 años de edad.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl060.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl061.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl061.webp"
+        ]
+    },
+    {
+        "id": 750,
+        "categoryId": 6,
+        "name": "Hills Alimento Humedo Para Gatos Mature Turkey 156 G",
+        "price": 18100,
+        "description": "El Alimento Para Gatos Science Diet Adult 7+ Receta de Pavo, Aporta el Sabor Gourmet Del Pavo Con su Textura Suave y Lisa. Contiene Nutrición Balanceada Con Precisión Para Mantener la Salud de Los Riñones y Órganos Vitales. Todas Las Razas Nutrición Para Mantener la Salud de Los Órganos Vitales y Riñones. Proteína Para Construir Músculos Magros. Senior.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl070.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl070.webp"
+        ]
+    },
+    {
+        "id": 751,
+        "categoryId": 6,
+        "name": "Hills Alimento para Gatos Adulto Urinary Care C/D",
+        "price": 171300,
+        "description": "Es un concentrado especialmente diseñado para tratar problemas de cálculos urinarios como de de estruvita y oxalato cálcico.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl080.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl081.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl081.webp"
+        ]
+    },
+    {
+        "id": 752,
+        "categoryId": 6,
+        "name": "Hills Alimento Húmedo para Perros y Gatos A/D",
+        "price": 23300,
+        "description": "Los gatos y los perros pueden sufrir cambios metabólicos importantes cuando se está recuperando de una grave enfermedad, lesión o cirugía. Durante estas condiciones de estrés, el cuerpo tiene el reto de mantener fuertes defensas naturales y prescindir de la masa corporal magra, lo que hace que sea aún más importante para alimentar a los alimentos adecuados. ",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl090.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/hl090.webp"
+        ]
+    },
+    {
+        "id": 753,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Húmedo para Gato Spayed y Neutered",
+        "price": 11500,
+        "description": "Contiene un perfil de macronutrientes que es instintivamente preferido por los gatos adultos.  Representa un balance entre proteínas, grasas y carbohidratos. También influye en gran parte a la palatabilidad y a la satisfacción dietética.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc000.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc000.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc000.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc000.webp"
+        ]
+    },
+    {
+        "id": 754,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Húmedo para Gato Urinary",
+        "price": 15600,
+        "description": "Esta fórmula equilibrada ayuda a prevenir la formación de cristales y cálculos en el tracto urinario, promoviendo la salud renal y urinaria. El alimento húmedo proporciona una hidratación adicional, es sabroso y fácil de consumir, lo que puede ser beneficioso para gatos que necesitan aumentar su ingesta de líquidos. Royal Canin se compromete a ofrecer una nutrición específica para las necesidades de los gatos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc010.webp"
+        ]
+    },
+    {
+        "id": 755,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Regular Sterilised 37",
+        "price": 243.79,
+        "description": "Alimento para gatos adultos, mayores a 12 meses, de todas las razas castrados. Ideal para mantener el peso adecuado de tu felino, buena tonicidad muscular y prevenir problemas renales. Alimento formulado para gatos castrados.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejeje.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejejeje.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejeje.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/jejejeje.webp"
+        ]
+    },
+    {
+        "id": 756,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Humedo para Gato Gastrointestinal",
+        "price": 17600,
+        "description": "Alimento húmedo para gato con trastornos gastrointestinales, diarrea aguda y crónica, enfermedad intestinal inflamatoria (EII), mala digestión, mala absorción, colitis según estado clínico, convalecencia, sobre crecimiento bacteriano, gastritis, enteritis y colitis. Para gatitos de 4 a los 12 meses de edad.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc030.webp"
+        ]
+    },
+    {
+        "id": 757,
+        "categoryId": 6,
+        "name": "Royal Canin Feline Health Nutrition Dry Kitten",
+        "price": 162000,
+        "description": "Alimento para gatitos de hasta 12 meses. Esta dieta completa para gatitos ha sido formulada considerando las necesidades nutricionales de la segunda etapa de crecimiento felino, en la que su sistema inmunológico todavía se está desarrollando.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc041.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc041.webp"
+        ]
+    },
+    {
+        "id": 758,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Para Gato Kitten",
+        "price": 32000,
+        "description": "Alimento completo y equilibrado especial para gatitos de segunda edad (hasta los 12 meses de edad",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc050.webp"
+        ]
+    },
+    {
+        "id": 759,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Adulto Savour Exigent",
+        "price": 132350,
+        "description": "Algunos gatos con apetito caprichoso, se sienten más atraídos por la diversidad. Savor Selective se caracteriza por tener 2 croquetas sinérgicas, cada una con fórmula y textura diferentes, para estimular la preferencia natural de estos felinos. Gracias a su contenido energético, ayuda a mantener el peso y las necesidades nutricionales de forma ideal.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc060.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc060.webp"
+        ]
+    },
+    {
+        "id": 760,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gatito Persa",
+        "price": 181350,
+        "description": "Es un alimento específicamente formulado para satisfacer las necesidades nutricionales de los gatos de la raza persa. Los gatos persas son conocidos por su pelaje largo y denso, así como por sus características faciales distintivas y pueden tener requisitos dietéticos específicos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc070.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc071.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc071.webp"
+        ]
+    },
+    {
+        "id": 761,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Para Gato Gastrointestinal",
+        "price": 19490,
+        "description": "Maneja una alta densidad energética que responde a los altos requerimientos de energía de los gatos, mientras ayuda a reducir la cantidad de alimento proporcionado en la comida. Disminuyendo la carga de trabajo del aparato digestivo. También facilita la convalecencia y recuperación.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc080.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc080.webp"
+        ]
+    },
+    {
+        "id": 762,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gatitos Esterilizado",
+        "price": 137695,
+        "description": "Es un alimento completo, equilibrado, especialmente para los gatitos esterilizados de 6 a 12 meses de edad. Contiene nutrientes que incluyen vitaminas C y E, para contribuir al desarrollo del sistema inmunitario.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last1.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last2.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last1.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/last3.webp"
+        ]
+    },
+    {
+        "id": 763,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Adulto Sensible 33",
+        "price": 142400,
+        "description": "Está indicado para gatos adultos de entre 1 y 7 años y ha sido especialmente formulado para aquellos que muestran sensibilidad digestiva. Aporta una combinación exclusiva de nutrientes para favorecer una seguridad digestiva óptima.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc100.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc101.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc100.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc102.webp"
+        ]
+    },
+    {
+        "id": 764,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Húmedo VHN Satiety Support",
+        "price": 15590,
+        "description": "Alimento completo y equilibrado para gatos adultos. Mantenimiento masa muscular.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc110.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc110.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc111.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc100.webp"
+        ]
+    },
+    {
+        "id": 765,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Veterinary Diet Dry Hepatic",
+        "price": 195730,
+        "description": "Formulado específicamente para ayudar a mantener la salud hepática de tu felino, en casos de insuficiencia hepática crónica. Esta dieta especial contiene niveles de proteína de gran calidad adaptados específicamente para favorecer una función saludable.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc120.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc120.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc120.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc120.webp"
+        ]
+    },
+    {
+        "id": 766,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gatos Appetite Control",
+        "price": 153255,
+        "description": "Contiene un nivel moderado de grasa (12 %) y fibras específicas que satisfacen el apetito de los gatos, con una tendencia a rogar alimentos y contribuir a reducir naturalmente la sensación de hambre.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc130.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc130.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc130.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc130.webp"
+        ]
+    },
+    {
+        "id": 767,
+        "categoryId": 6,
+        "name": "Royal Canin Feline Care Nutrition Wet Weight Care 0,085Kg",
+        "price": 9050,
+        "description": "Royal Canin - Alimento Húmedo Weight Care Tiene un 15% Menos de Calorías Que la Instalación Para Adultos: Solo 56 Kilocalorías Por Cada 3 oz Pueden Admite la Masa Muscular Magra. Incluye un Alto Contenido de Proteína Para Ayudar a Preservar la Masa Muscular. 85 Gr",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc140.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc140.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc140.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc140.webp"
+        ]
+    },
+    {
+        "id": 768,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Adulto Mayor Envejecimiento",
+        "price": 144150,
+        "description": "Es un alimento seco diseñado especialmente para satisfacer las necesidades nutricionales específicas de los gatos adultos mayores de 12 años. Esta fórmula está creada para abordar los cambios en la salud y el metabolismo que suelen acompañar el envejecimiento felino.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc150.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc150.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc150.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc150.webp"
+        ]
+    },
+    {
+        "id": 769,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Húmedo Para Gato Persian 85 G",
+        "price": 21350,
+        "description": "Alimento húmedo especialmente formulado para gatos persas adultos que ayuda en el control de bola de pelo, salud de piel y pelaje y digestión saludable.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc160.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc160.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc160.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc160.webp"
+        ]
+    },
+    {
+        "id": 770,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Siames",
+        "price": 162760,
+        "description": "Esta croqueta única estimula la masticación y ayuda a reducir la velocidad de ingestión, el siamés tiene una silueta atlética y elegante, un nivel aumentado de proteínas (38%) y un nivel moderado de grasas (16%), que ayudan a mantener un cuerpo alargado, esbelto y musculoso.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc170.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc171.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc170.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc172.webp"
+        ]
+    },
+    {
+        "id": 771,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Para Gato Adulto Renal",
+        "price": 167600,
+        "description": "Alimento elaborado específicamente para ayudar a mantener la función renal de tu gato en casos de enfermedad crónica o de lesión renal aguda. Esta dieta está formulada con un bajo contenido en fósforo y proporciona una cantidad moderada de proteínas de gran calidad. Contiene 2 Kg.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc180.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc180.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc180.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc180.webp"
+        ]
+    },
+    {
+        "id": 772,
+        "categoryId": 6,
+        "name": "Royal Canin Veterinary Alimento Humedo Para Gato Glycobalance 85 G",
+        "price": 11350,
+        "description": "Es un alimento húmedo indicado para gatos con diabetes mellitus y sobrepeso, para mantener sus niveles de glucosa y peso ideal. Con una fórmula con gluco-moduladores y baja en almidón.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc190.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc190.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc190.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc190.webp"
+        ]
+    },
+    {
+        "id": 773,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento Humedo Para Gato Hairball 85 g",
+        "price": 10310,
+        "description": "ormulado para ayudar a estimular naturalmente el tránsito intestinal para favorecer la eliminación del vello ingerido. Formulado con proteína altamente digerible (LIP*) para promover la salud digestiva. *Proteína LIP seleccionada por su muy alta digestibilidad.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc200.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc200.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc200.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc200.webp"
+        ]
+    },
+    {
+        "id": 774,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Control Bola de Pelo",
+        "price": 202800,
+        "description": "Alimento para gatos de 1 a 10 años de edad, con una fórmula nutricional equilibrada, que ayuda naturalmente a reducir la formación de bolas de pelo, mientras ayuda a estimular el tránsito intestinal con un 100% de ingredientes completos y de exquisito sabor para tu felino.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc210.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc211.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc210.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc211.webp"
+        ]
+    },
+    {
+        "id": 775,
+        "categoryId": 6,
+        "name": "Royal Canin Feline Health Nutrition Dry Fit Pc Adult 400g",
+        "price": 25900,
+        "description": "Alimento que brinda una mutrición completa y equilibrada que contiene el nivel adecuado de nutrientes beneficiosos para mantener a los gatos adultos en buena salud. Ideal para mantener el peso de los gatos adultos que tienen mayores requerimientos energéticos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc220.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc220.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc221.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc220.webp"
+        ]
+    },
+    {
+        "id": 776,
+        "categoryId": 6,
+        "name": "Royal Canin Alimento para Gato Health Nutrition Dry Kitten",
+        "price": 256570,
+        "description": "Alimenta la magnificencia de tu joven gatito desde el principio con los bloques de construcción necesarios para un crecimiento y desarrollo saludables. Los nutrientes esenciales como el DHA construyen una base sólida para un desarrollo cerebral saludable.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc230.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc230.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc231.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc230.webp"
+        ]
+    },
+    {
+        "id": 777,
+        "categoryId": 6,
+        "name": "Royal Canin Veterinary Alimento Para Gato Glycobalance 2 Kg",
+        "price": 212685,
+        "description": "Alimento medicado para gatos con Diabetes Mellitus y sobrepeso para mantener sus niveles de glucosa y peso ideal. Fórmula con gluco-moduladores y baja en almidón. Una combinación de prebióticos y fibras solubles e insolubles ayuda a minimizar las variaciones de la glucemia.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc240.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc240.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc240.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc240.webp"
+        ]
+    },
+    {
+        "id": 778,
+        "categoryId": 6,
+        "name": "Royal Canin Feline Care Nutrition Dry Urinary Care 2Kg",
+        "price": 154950,
+        "description": "Alimento para gatos adultos recomendado para ayudar a mantener la salud del tracto urinario.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc250.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc251.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc252.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc253.webp"
+        ]
+    },
+    {
+        "id": 779,
+        "categoryId": 6,
+        "name": "Royal Canin Persian 10kg",
+        "price": 619850,
+        "description": "Alimento compelto y equilibrado para gatos – Especialmente para gatos adultos de la raza Persa a partir de 12 meses de edad.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc260.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc260.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc260.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc260.webp"
+        ]
+    },
+    {
+        "id": 780,
+        "categoryId": 6,
+        "name": "Royal Canin Feline Care Nutrition Dry Hair And Skin Care 2Kg",
+        "price": 160950,
+        "description": "Alimento completo y equilibrado para gatos adultos para el cuidado y nutrición del pelo y de la piel.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc270.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc270.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc271.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/rc272.webp"
+        ]
+    },
+    {
+        "id": 781,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Activo",
+        "price": 39605,
+        "description": "Es un alimento rico en proteína animal de alto valor biológico. Contiene minerales como calcio, fósforo, potasio, hierro, vitaminas A, D, E, fibras, ácidos grasos esenciales, nutrientes que favorecen el fortalecimiento del sistema inmunológico de tu felino y aportan al correcto funcionamiento de sus sistemas vitales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth011.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth010.webp"
+        ]
+    },
+    {
+        "id": 782,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Hogareños Forti Defense",
+        "price": 122680,
+        "description": "Este alimento es una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas naturales de tu felino. Gracias a la mezcla de sus ingredientes activos, ayudará a promover un sistema inmune fuerte, para proteger y optimizar su estilo de vida único.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth021.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth020.webp"
+        ]
+    },
+    {
+        "id": 783,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Hogareño Forti Defense",
+        "price": 40020,
+        "description": "Este alimento es una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales, que ayudan a fortalecer las defensas naturales de tu felino. Gracias a la mezcla de los ingredientes de salmón, carne y pollo, ayudará a promover su sistema inmune fuerte, para proteger y optimizar su estilo de vida único.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth031.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth030.webp"
+        ]
+    },
+    {
+        "id": 784,
+        "categoryId": 6,
+        "name": "Purina Cat Chow Vida Sana Pollo Salmón y Verdura",
+        "price": 83260,
+        "description": "Una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas naturales de tu gato.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth041.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth041.webp"
+        ]
+    },
+    {
+        "id": 785,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gatito Forti Defense con DHA",
+        "price": 41720,
+        "description": "Hecho con todos los nutrientes que tu gatito necesita para favorecer un crecimiento sano y mejorado. Tiene una combinación exclusiva de prebióticos naturales, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas desde el primer día.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth051.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth051.webp"
+        ]
+    },
+    {
+        "id": 786,
+        "categoryId": 6,
+        "name": "Cat Chow Adultos Pescado FortiDefense 8g",
+        "price": 133490,
+        "description": "Ofrece nutrientes que tu gato necesita para mantenerse saludable, es rico en omegas 3 y 6, que ayudan a tener una piel y un pelo saludables, ayuda a fortalecer las defensas naturales, ayudará a promover un sistema inmune fuerte para proteger su estilo de vida único.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth060.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth061.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth062.webp"
+        ]
+    },
+    {
+        "id": 787,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gatos Adultos Carne Forti Defense",
+        "price": 133490,
+        "description": "Forti Defense, una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas naturales de tu gato.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth070.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth071.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth072.webp"
+        ]
+    },
+    {
+        "id": 788,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gatitos Forti Defense",
+        "price": 134365,
+        "description": "Una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas naturales de tu gato desde el primer día. Esto ayudará a promover un sistema inmune fuerte para proteger su estilo de vida único.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth080.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth081.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth081.webp"
+        ]
+    },
+    {
+        "id": 789,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Sabor Pescado",
+        "price": 39515,
+        "description": "Alimento rico en proteína animal de alto valor biológico. Contiene minerales como calcio, fósforo, potasio, hierro, vitaminas A, D, E, fibras y ácidos grasos esenciales. Con nutrientes que favorecen el fortalecimiento del sistema inmunológico de tu felino y aportan al correcto funcionamiento de sus sistemas vitales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth090.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth091.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth091.webp"
+        ]
+    },
+    {
+        "id": 790,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Esterilizado",
+        "price": 40020,
+        "description": "Esta fórmula ofrece los nutrientes necesarios para que tu gato se mantenga saludable, fuerte y lleno de energía para realizar las actividades que más le gusta. Posee un rico sabor a carne y gracias a sus proteínas y hierro podrá mantener y desarrollar una musculatura fuerte.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth100.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth100.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth101.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth100.webp"
+        ]
+    },
+    {
+        "id": 791,
+        "categoryId": 6,
+        "name": "Cat Chow Alimento para Gato Adulto Delimix",
+        "price": 164495,
+        "description": "descripcioooooon",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth110.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth111.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth110.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/cth112.webp"
+        ]
+    },
+    {
+        "id": 792,
+        "categoryId": 7,
+        "name": "Mirringo Alimento para Gatos Adultos Original",
+        "price": 9735,
+        "description": "Tiene ingredientes que incluyen un 30 % de proteína de pollo, carne y/o pescado, que son una gran fuente de alimento para tu gato. Les encantara el sabor.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn011.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn010.webp"
+        ]
+    },
+    {
+        "id": 793,
+        "categoryId": 7,
+        "name": "Mirringo Alimento para Gatos Adultos Cuidado Urinario +Pro",
+        "price": 14050,
+        "description": "Es una alta fuente de proteína 30 % que respeta la naturaleza de los gatos de todas las razas, además contribuye a controlar el pH de la orina, lo que ayuda a prevenir los cálculos renales y su componente de fibra favorece la expulsión de bolas de pelos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn020.webp"
+        ]
+    },
+    {
+        "id": 794,
+        "categoryId": 7,
+        "name": "Mirringo Alimento Para Gato Original Adulto",
+        "price": 84900,
+        "description": "Para Gato.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mrn030.webp"
+        ]
+    },
+    {
+        "id": 795,
+        "categoryId": 7,
+        "name": "Agility Gold Alimento para Gato Adulto",
+        "price": 79900,
+        "description": "Es un concentrado ideal para proporcionar una alimentación adecuada y una digestión más rápida, contiene niveles equilibrados de minerales que favorecen la salud renal y es perfecta para evitar la formación de las bolas de pelo.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag010.webp"
+        ]
+    },
+    {
+        "id": 796,
+        "categoryId": 7,
+        "name": "Agility Gold Alimento Premium para Gatitos",
+        "price": 86000,
+        "description": "Es un alimento completo, balanceado, para gatitos de todas las razas y como complemento a la leche materna durante la lactancia. Brinda un adecuado aporte de probióticos y prebióticos, los cuales ayudan en la salud gastrointestinal.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag020.webp"
+        ]
+    },
+    {
+        "id": 797,
+        "categoryId": 7,
+        "name": "Agility Gold Alimento Seco para Gatitos",
+        "price": 44000,
+        "description": "Es un alimento seco, perfecto para controlar las bolas de pelo de tu gato. Este alimento tiene una dieta completa, balanceada, libre de granos, elaborada con carne real de salmón y pollo.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag030.webp"
+        ]
+    },
+    {
+        "id": 798,
+        "categoryId": 7,
+        "name": "Agility Gold Alimento para Gato Adulto Esterilizado",
+        "price": 43000,
+        "description": "Es un producto específico para cubrir todas las necesidades de un gato esterilizado o castrado; gracias a su fórmula diseñada con alto contenido proteico (36 %) de origen animal, manteniendo la masa muscular y favoreciendo la palatabilidad del alimento.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag040.webp"
+        ]
+    },
+    {
+        "id": 799,
+        "categoryId": 7,
+        "name": "Agility Gold Premio Para Gato",
+        "price": 9500,
+        "description": "Premios gato es un snack o premio elaborado con ingredientes de alta calidad que promueven la salud de tu gato. Úsalo para estimular un buen comportamiento, nutriendo y educando con mucho sabor.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/ag050.webp"
+        ]
+    },
+    {
+        "id": 800,
+        "categoryId": 7,
+        "name": "Monello Alimento para Gato Adulto Sabor Salmón",
+        "price": 26900,
+        "description": "Alimento ideal para gatos adultos, contiene taurina contando con una dieta de calidad, llena de aminoácidos adaptados a tu gato, mejora el desarrollo de la retina y evita enfermedades cardiacas.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm010.webp"
+        ]
+    },
+    {
+        "id": 801,
+        "categoryId": 7,
+        "name": "Monello Cat Alimento para Gato Castrado Salmon Adulto",
+        "price": 228500,
+        "description": "Es un alimento premium especial desarrollado para atender las necesidades de gatos adultos castrados. Exento de colorantes y aromatizantes artificiales. La castración del felino contribuye para que sea menos activo, aumentando el riesgo de sobrepeso.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm020.webp"
+        ]
+    },
+    {
+        "id": 802,
+        "categoryId": 7,
+        "name": "Monello Alimento para Gatos Adultos Sabor a Salmón y Pollo",
+        "price": 148200,
+        "description": "Fue pensado para agradar al paladar exigente de los felinos y proveer los nutrientes necesarios para una vida más activa y sana. La fórmula cuenta con la adición de ingredientes de calidad superior, como la harina y el aceite de salmón, que ayudan en el mantenimiento del sistema cognitivo y aumenta el bienestar en el cotidiano.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm030.webp"
+        ]
+    },
+    {
+        "id": 803,
+        "categoryId": 7,
+        "name": "Monello Alimento para Gatos Castrados",
+        "price": 29500,
+        "description": "Ha sido especialmente desarrollado para gatos en etapa post castración, cuando tienden a ser menos activos y más propensos a la obesidad. Por eso, esta fórmula ha reducido las calorías y ha añadido l-carnitina, una sustancia que convierte la grasa en energía.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm041.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm040.webp"
+        ]
+    },
+    {
+        "id": 804,
+        "categoryId": 7,
+        "name": "Monello Alimento Premium para Gatitos",
+        "price": 29500,
+        "description": "Es un alimento rico en proteína animal de alto valor biológico, contiene minerales como calcio, fósforo, potasio, hierro, vitaminas A, D, E, fibras y ácidos grasos esenciales. Estos nutrientes favorecen el fortalecimiento del sistema inmunológico de tu mascota y el correcto funcionamiento de sus sistemas vitales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm050.webp"
+        ]
+    },
+    {
+        "id": 805,
+        "categoryId": 7,
+        "name": "Monello Alimento para Perro Adulto Raza Pequeña Sabor Pollo",
+        "price": 19700,
+        "description": "Alimento premium especial que atiende las necesidades nutricionales de perros adultos de razas pequeñas. Proporciona más longevidad a los peludos. Con adición de linaza, aceite de oliva y aceite de girasol, el alimento es rico en antioxidantes que combaten los radicales libres y previenen el envejecimiento, lo cual aumenta el bienestar y la vitalidad de las mascotas. Ideal para consentir y mantener sanos y fuerte a tu mascota del hogar.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm060.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm060.webp"
+        ]
+    },
+    {
+        "id": 806,
+        "categoryId": 7,
+        "name": "Monello Dog Puppy X 7 Kl",
+        "price": 117500,
+        "description": "Monello Dog Cachorros Es Un Alimento Premium Especial Desarrollado Para Cachorros, Supliendo Sus Necesidades Nutricionales. Cuenta Con Ingredientes Seleccionadosespecies: Caninos.Presentación:  1 Kg | 7 Kg | 15 Kg | 25 Kg.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm070.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm070.webp"
+        ]
+    },
+    {
+        "id": 807,
+        "categoryId": 7,
+        "name": "Monello Selec Gato Ad Pelo Y Piel 1.5 Kg",
+        "price": 43000,
+        "description": "La nueva Monello Gatos Adultos Salmón y Pollo fue pensada para agradar al paladar exigente de los felinos y proveer los nutrientes necesarios para una vida más activa y sana.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm080.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm080.webp"
+        ]
+    },
+    {
+        "id": 808,
+        "categoryId": 7,
+        "name": "Monello Selec Gato Ad Pelo Y Piel 7 Kg",
+        "price": 169200,
+        "description": "es un alimento ideal para tu peludo. Los gatitos en crecimiento están sujetos a múltiples factores de estrés en las primeras etapas de la vida. Una dieta con formulación equilibrada de calidad puede ayudar en el desarrollo saludable.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm090.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/mm090.webp"
+        ]
+    },
+    {
+        "id": 809,
+        "categoryId": 7,
+        "name": "Whiskas Alimento Húmedo para Gato Adulto de Salmón",
+        "price": 3600,
+        "description": "descripciEs una comida húmeda para gatos completa y balanceada para incluir en su alimentación diaria. Gracias a su apetitoso sabor y provocativa textura es un alimento recomendado para aquellos gatos caprichosos o con un paladar más exigente, pues no podrán resistirse a su atrayente aroma a pescado.oooooon",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk011.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk010.webp"
+        ]
+    },
+    {
+        "id": 810,
+        "categoryId": 7,
+        "name": "Whiskas Alimento Húmedo para Gato Adulto",
+        "price": 3600,
+        "description": "Es un alimento completo para gatos adultos, hecho con ingredientes naturales, vitaminas, minerales, trozos de pollo cocinados al vapor. Incluye el alimento húmedo al menos una vez al día para mantener a tu gato siempre saludable. Ayuda a mantener la salud del tracto urinario, además es una excelente fuente de calcio.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk021.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk022.webp"
+        ]
+    },
+    {
+        "id": 811,
+        "categoryId": 7,
+        "name": "Whiskas Alimento para Gatito Sabor Carne",
+        "price": 3600,
+        "description": "Comida completa para gatitos con ingredientes naturales, vitaminas y minerales trozos de carne cocinados al vapor. Incluye el alimento húmedo al menos una vez al día para mantener a tu gato siempre saludable. Ayuda a mantener la salud del tracto urinario. Excelente fuente de calcio, alta absorción de nutrientes.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk030.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk030.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk031.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk030.webp"
+        ]
+    },
+    {
+        "id": 812,
+        "categoryId": 7,
+        "name": "Whiskas Alimento Húmedo para Gatito Sabor Atún",
+        "price": 3600,
+        "description": "Comida completa para gatitos con ingredientes naturales, vitaminas y minerales trozos de atún cocinados al vapor. Incluye el alimento húmedo al menos una vez al día para mantener a tu gato siempre saludable.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk040.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk040.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk040.webp"
+        ]
+    },
+    {
+        "id": 813,
+        "categoryId": 7,
+        "name": "Whiskas Alimento Húmedo para Gato Castrados Sabor a Carne",
+        "price": 3600,
+        "description": "Es un alimento rico en proteína animal de alto valor biológico, contiene minerales como calcio, fósforo, potasio y hierro, vitaminas A, D y E, fibras y ácidos grasos esenciales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk050.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk051.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk050.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk051.webp"
+        ]
+    },
+    {
+        "id": 814,
+        "categoryId": 7,
+        "name": "Whiskas Alimento Gato Adulto Sabor Carne",
+        "price": 40400,
+        "description": "Es un alimento nutricionalmente completo, con un óptimo equilibrio de vitaminas y minerales que te ayudarán a dar el mejor cuidado posible a tu gato adulto. Contiene también deliciosas croquetas rellenas que le encantarán: crujientes por fuera y suaves por dentro.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk060.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk060.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk060.webp"
+        ]
+    },
+    {
+        "id": 815,
+        "categoryId": 7,
+        "name": "Whiskas Alimento para Gato Adulto con Carne de Res en Filetes",
+        "price": 3600,
+        "description": "Es un alimento húmedo 100% completo y balanceado, cocido al vapor, que contiene suaves trocitos en salsa. Gracias a su humedad única, es ideal para ayudar a prevenir las enfermedades del tracto urinario, mientras contribuye con la vitalidad y energía necesarias para explorar el mundo con un delicioso sabor.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk070.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk070.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk071.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk070.webp"
+        ]
+    },
+    {
+        "id": 816,
+        "categoryId": 7,
+        "name": "Whiskas Pack Alimento Para Gato Surtido",
+        "price": 22300,
+        "description": "Pack Whiskas Contiene 7 Unidades de 85 g c/u.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk080.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk080.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk080.webp"
+        ]
+    },
+    {
+        "id": 817,
+        "categoryId": 7,
+        "name": "Whiskas Alimento para Gato Castrado Sabor Pescado",
+        "price": 3600,
+        "description": "Con omega 6 y zinc para ayudar a mantener una piel y pelo sano. Contribuye a un tracto urinario saludable mediante el control de minerales. Con prebióticos que contribuyen a una digestión saludable. Proteína de alta calidad que ayuda a mantener la masa muscular.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk090.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk090.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/wk090.webp"
+        ]
+    },
+    {
+        "id": 818,
+        "categoryId": 7,
+        "name": "One Alimento para Gato Adulto con Sabor a Salmón",
+        "price": 6100,
+        "description": "Alimento balanceado, completo y húmedo, para gatos adultos, esterilizados de todos los tamaños. Con un sabor excepcional y textura cremosa. Contiene colágeno y omegas en combinaciones óptimas para la salud de tu mascota. Sin colorantes artificiales.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one000.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one001.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one000.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one002.webp"
+        ]
+    },
+    {
+        "id": 819,
+        "categoryId": 7,
+        "name": "One Alimento Gato Carne",
+        "price": 6100,
+        "description": "Una fórmula diseñada para proporcionar una nutrición completa y equilibrada, adaptada a las necesidades específicas de los gatos que han sido esterilizados. Con ingredientes seleccionados cuidadosamente, este alimento ofrece una experiencia gastronómica irresistible para tu amigo felino.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one010.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one010.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one011.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one012.webp"
+        ]
+    },
+    {
+        "id": 820,
+        "categoryId": 7,
+        "name": "One Purina Alimento para Gatitos Pollo y Carne",
+        "price": 27300,
+        "description": "Es un alimento balanceado completo para gatos en crecimiento de 1 a 12 meses, hembras gestantes o lactantes. Es hecho con carnes de verdad, esto ayuda a preservar la integridad de las proteínas, resultando en una mayor absorción y aprovechamiento de aminoácidos.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one020.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one020.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/one020.webp"
+        ]
+    },
+    {
+        "id": 821,
+        "categoryId": 7,
+        "name": "Chunky Alimento para Gato Adulto Sabor Cordero",
+        "price": 31800,
+        "description": "Es un concentrado para gatos adultos con sabor a salmón y a cordero, es un concentrado fabricado con carne real que aportará los niveles de proteína adecuados para mantener la masa muscular magra y el sabor palatable que a los gatos tanto les gusta.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk01.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk01.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk01.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk01.webp"
+        ]
+    },
+    {
+        "id": 822,
+        "categoryId": 7,
+        "name": "Chunky Set Alimento Húmedo para Gato x4",
+        "price": 11900,
+        "description": "Set con 4 unidades por 80 g c/u. Sabores surtidos: trozos de pavo, trozos de salmón y 2 de trozos de pollo. Para todas las razas de gatos. Alimento completo y balanceado.",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk02.webp",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk02.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk02.webp",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/chk02.webp"
+        ]
+    },
+    {
+        "id": 823,
+        "categoryId": 8,
+        "name": "juguete rayos laser para gato",
+        "price": 50000,
+        "description": "juguete rayos laser para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/toylaser00.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/toylaser00.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/toylaser00.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/toylaser00.jpg"
+        ]
+    },
+    {
+        "id": 824,
+        "categoryId": 8,
+        "name": "juguete Bailarin para gato",
+        "price": 27000,
+        "description": "juguete Bailarin para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy01.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy01.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy01.jpg"
+        ]
+    },
+    {
+        "id": 825,
+        "categoryId": 8,
+        "name": "juguete Bailarin hierba gatera para gato",
+        "price": 27000,
+        "description": "juguete Bailarin hierba gatera para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy02.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy02.jpg"
+        ]
+    },
+    {
+        "id": 826,
+        "categoryId": 8,
+        "name": "juguete Bailarin hierba gatera para gato",
+        "price": 27000,
+        "description": "juguete Bailarin hierba gatera para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy03.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooy03.jpg"
+        ]
+    },
+    {
+        "id": 827,
+        "categoryId": 8,
+        "name": "Insecto corredor para gato",
+        "price": 17500,
+        "description": "juguete para gato ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya01.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya02.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya03.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya01.jpg"
+        ]
+    },
+    {
+        "id": 828,
+        "categoryId": 8,
+        "name": "Juguete corredor insecto",
+        "price": 17500,
+        "description": "Juguete corredor insecto ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya04.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya04.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya04.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/tooya04.jpg"
+        ]
+    },
+    {
+        "id": 829,
+        "categoryId": 8,
+        "name": "Hierba gatera",
+        "price": 16500,
+        "description": "Hierba gatera ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/16500.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/16500.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/16500.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/16500.jpg"
+        ]
+    },
+    {
+        "id": 830,
+        "categoryId": 8,
+        "name": "Hierba gatera Azul",
+        "price": 13500,
+        "description": "Hierba gatera Azul ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135001.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135001.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135001.jpg"
+        ]
+    },
+    {
+        "id": 831,
+        "categoryId": 8,
+        "name": "Hierba gatera Rosa",
+        "price": 13500,
+        "description": "Hierba gatera Rosa ms",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135002.jpg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135002.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135002.jpg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/135002.jpg"
+        ]
+    },
+    {
+        "id": 832,
+        "categoryId": 8,
+        "name": "Juguete dispensador de comida",
+        "price": 30000,
+        "description": "Juguete dispensador de comida vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030tooy1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030tooy1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030tooy1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/030tooy1.JPG"
+        ]
+    },
+    {
+        "id": 833,
+        "categoryId": 8,
+        "name": "Juguete Interactivo de premios para gatos",
+        "price": 50000,
+        "description": "Juguete Interactivo de premios para gatos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy1.JPG"
+        ]
+    },
+    {
+        "id": 834,
+        "categoryId": 8,
+        "name": "Juguete Interactivo de premios para gatos",
+        "price": 50000,
+        "description": "Juguete Interactivo de premios para gatos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy2.JPG"
+        ]
+    },
+    {
+        "id": 835,
+        "categoryId": 8,
+        "name": "Juguete Interactivo de premios para gatos",
+        "price": 50000,
+        "description": "Juguete Interactivo de premios para gatos vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050tooy3.JPG"
+        ]
+    },
+    {
+        "id": 836,
+        "categoryId": 8,
+        "name": "Pistola de premios con rayo laser",
+        "price": 50000,
+        "description": "Pistola de premios con rayo laser vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm4.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm4.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm4.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm4.jpeg"
+        ]
+    },
+    {
+        "id": 837,
+        "categoryId": 8,
+        "name": "Pistola de premios con rayo laser",
+        "price": 50000,
+        "description": "Pistola de premios con rayo laser vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm5.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm5.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm5.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm5.jpeg"
+        ]
+    },
+    {
+        "id": 838,
+        "categoryId": 8,
+        "name": "Raton escurridiso con sensor anti-choque",
+        "price": 50000,
+        "description": "Raton escurridiso con sensor anti-choque vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm6.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm6.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm6.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm6.jpeg"
+        ]
+    },
+    {
+        "id": 839,
+        "categoryId": 8,
+        "name": "Raton escurridiso con sensor anti-choque",
+        "price": 50000,
+        "description": "Raton escurridiso con sensor anti-choque vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg"
+        ]
+    }
 ]

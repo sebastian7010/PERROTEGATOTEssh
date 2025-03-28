@@ -507,7 +507,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting && !hasAnimated) {
-                animateCounter(1000000, 10000);
+                animateCounter(1000, 1000);
                 hasAnimated = true;
                 observer.unobserve(counterContainer); // Deja de observar una vez animado
             }
