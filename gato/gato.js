@@ -34,7 +34,6 @@ function initializeSearch() {
     });
 }
 
-/** Renderizar los resultados de la búsqueda **/
 function renderSearchResults(results) {
     const container = document.getElementById('carousels-container');
     if (!container) return;
@@ -51,7 +50,7 @@ function renderSearchResults(results) {
         const product = result.item;
         html += `
       <div class="product-card" data-id="${product.id}">
-        <img src="${product.image}" alt="${product.name}" class="product-image">
+        <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${JSON.stringify(product.gallery && product.gallery.length ? product.gallery : [product.image])}'>
         <div class="product-details">
           <h3>${product.name}</h3>
           <p>$${product.price.toLocaleString()}</p>
@@ -67,7 +66,9 @@ function renderSearchResults(results) {
     html += '</div>';
     container.innerHTML = html;
     attachEventListeners();
+    assignImageClickEvents(); // Agrega esta línea para asignar el evento clic a las imágenes
 }
+
 
 /** Actualiza el carrito flotante (floating cart)
  *  Se actualiza la cantidad del producto en el objeto 'cart'

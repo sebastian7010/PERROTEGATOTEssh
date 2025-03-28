@@ -49,7 +49,7 @@ function renderSearchResults(results) {
         const product = result.item;
         html += `
       <div class="product-card" data-id="${product.id}">
-        <img src="${product.image}" alt="${product.name}" class="product-image">
+        <img src="${product.image}" alt="${product.name}" class="product-image" data-gallery='${JSON.stringify(product.gallery && product.gallery.length ? product.gallery : [product.image])}'>
         <div class="product-details">
           <h3>${product.name}</h3>
           <p>$${product.price.toLocaleString()}</p>
