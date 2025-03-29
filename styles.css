@@ -1245,3 +1245,18 @@ body {
     cursor: pointer;
     z-index: 2100;
 }
+
+.search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Espacio entre columnas y filas */
+    max-width: 1200px;
+    /* Ancho máximo, opcional */
+    margin: 0 auto;
+    /* Centra el grid horizontalmente */
+    padding: 20px;
+    /* Espacio interno opcional */
+    justify-items: center;
+    /* Centra cada tarjeta en su celda */
+}
