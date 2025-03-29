@@ -10904,5 +10904,239 @@
             "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg",
             "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/050gamm7.jpeg"
         ]
+    },
+    {
+        "id": 840,
+        "categoryId": 8,
+        "name": "Tapete para perro",
+        "price": 20000,
+        "description": "Tapete para perro vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020tapete2.JPG"
+        ]
+    },
+    {
+        "id": 841,
+        "categoryId": 8,
+        "name": "Juguete hierba gatera",
+        "price": 20000,
+        "description": "Juguete hierba gatera vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm5.jpeg",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm5.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm6.jpeg",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/020gamm5.jpeg"
+        ]
+    },
+    {
+        "id": 842,
+        "categoryId": 8,
+        "name": "Juguete de raton de plumas para gato",
+        "price": 60000,
+        "description": " Juguete de raton de plumas para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx1.JPG"
+        ]
+    },
+    {
+        "id": 843,
+        "categoryId": 8,
+        "name": "Juguete interactivo para gato",
+        "price": 20000,
+        "description": " Juguete interactivo para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx2.JPG"
+        ]
+    },
+    {
+        "id": 844,
+        "categoryId": 8,
+        "name": "peluche coreano para gato",
+        "price": 20000,
+        "description": " peluche coreano para gato vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx3.JPG"
+        ]
+    },
+    {
+        "id": 845,
+        "categoryId": 8,
+        "name": "Raton de juguete",
+        "price": 20000,
+        "description": " Raton de juguete vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx4.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/maxx4.JPG"
+        ]
+    },
+    {
+        "id": 846,
+        "categoryId": 8,
+        "name": "Bolas de hierba gatera",
+        "price": 12000,
+        "description": " Bolas de hierba gatera vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm1.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm1.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm1.JPG"
+        ]
+    },
+    {
+        "id": 847,
+        "categoryId": 8,
+        "name": "Juguete de algodon",
+        "price": 12000,
+        "description": "Juguete de algodon vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm2.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm2.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm2.JPG"
+        ]
+    },
+    {
+        "id": 848,
+        "categoryId": 8,
+        "name": "Pelota de plumas",
+        "price": 12000,
+        "description": " Pelota de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm3.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm3.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm3.JPG"
+        ]
+    },
+    {
+        "id": 849,
+        "categoryId": 8,
+        "name": "Raton con cascabel",
+        "price": 12000,
+        "description": " Raton con cascabel vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm4.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm4.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm4.JPG"
+        ]
+    },
+    {
+        "id": 850,
+        "categoryId": 8,
+        "name": "Hierba gatera",
+        "price": 12000,
+        "description": "Hierba gatera vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm5.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm5.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm5.JPG"
+        ]
+    },
+    {
+        "id": 851,
+        "categoryId": 8,
+        "name": "libelulas juguete",
+        "price": 12000,
+        "description": " libelulas juguete vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm6.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm6.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm6.JPG"
+        ]
+    },
+    {
+        "id": 852,
+        "categoryId": 8,
+        "name": "juguete de plumas",
+        "price": 12000,
+        "description": " juguete de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm7.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm7.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm7.JPG"
+        ]
+    },
+    {
+        "id": 853,
+        "categoryId": 8,
+        "name": "Juguete de plumas",
+        "price": 12000,
+        "description": " Juguete de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm8.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm8.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm8.JPG"
+        ]
+    },
+    {
+        "id": 854,
+        "categoryId": 8,
+        "name": "Pelota de plumas",
+        "price": 12000,
+        "description": " Pelota de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm9.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm9.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm9.JPG"
+        ]
+    },
+    {
+        "id": 855,
+        "categoryId": 8,
+        "name": "Pelota de plumas",
+        "price": 12000,
+        "description": " Pelota de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm10.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm10.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm10.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm10.JPG"
+        ]
+    },
+    {
+        "id": 856,
+        "categoryId": 8,
+        "name": "Raton de peluche",
+        "price": 12000,
+        "description": " Raton de peluche vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm11.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm11.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm11.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm11.JPG"
+        ]
+    },
+    {
+        "id": 857,
+        "categoryId": 8,
+        "name": "Raton de plumas",
+        "price": 12000,
+        "description": " Raton de plumas vp",
+        "image": "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm12.JPG",
+        "gallery": [
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm12.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm12.JPG",
+            "https://images-pets.s3.us-east-2.amazonaws.com/imagenes/restm12.JPG"
+        ]
     }
 ]

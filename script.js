@@ -1,3 +1,46 @@
+// Función para detectar soporte de WebP en el navegador
+function supportsWebp(callback) {
+    const img = new Image();
+    img.onload = function() {
+        callback(true);
+    };
+    img.onerror = function() {
+        callback(false);
+    };
+    // Usamos una imagen de prueba en base64
+    img.src =
+        'data:image/webp;base64,UklGRiIAAABXRUJQVlA4TCEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
+}
+
+// Función que reemplaza en todos los elementos <img> la extensión .jpg o .png por .webp
+function replaceImagesWithWebp() {
+    const imgs = document.querySelectorAll('img');
+    imgs.forEach((img) => {
+        // Solo modificamos si la URL termina en jpg o png
+        if (img.src.match(/\.(jpg|png)$/i)) {
+            img.src = img.src.replace(/\.(jpg|png)$/i, '.webp');
+        }
+    });
+}
+
+// Llamamos a la función de soporte y reemplazo al cargar el DOM
+document.addEventListener('DOMContentLoaded', () => {
+    supportsWebp((supported) => {
+        if (supported) {
+            replaceImagesWithWebp();
+            console.log('Se han reemplazado las imágenes a formato WebP.');
+        } else {
+            console.log('El navegador no soporta WebP. Se mantienen las imágenes originales.');
+        }
+    });
+});
+
+
+
+
+
+
+
 // Variables globales
 let cart = {}; // Objeto que almacenará la cantidad de cada producto (clave: productId)
 let products = []; // Lista de productos obtenida del JSON
