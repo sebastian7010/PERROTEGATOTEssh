@@ -689,16 +689,26 @@ body {
     bottom: 33px;
     right: 20px;
     background-color: #00df82;
-    /* Color llamativo */
     border: 2px solid #45a049;
-    /* Borde brillante */
     border-radius: 50%;
-    padding: 5px 13px;
+    padding: 5px;
+    /* Padding uniforme para mantener la forma circular */
     box-shadow: 0px 8px 15px #25d365bc;
-    /* Sombra más pronunciada */
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 1000;
+    display: flex;
+    /* Se utiliza Flex para centrar el contenido */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Evita que el contenido se desborde */
+}
+
+.floating-cart .cart-icon {
+    width: 30px;
+    /* Ajusta el tamaño del ícono */
+    height: 30px;
 }
 
 .floating-cart:hover {
@@ -1322,77 +1332,5 @@ body {
     }
     .footer-section {
         margin-bottom: 1rem;
-    }
-}
-
-
-/* Media query para pantallas muy pequeñas (max-width: 320px) */
-
-@media (max-width: 320px) {
-    /* Ajustes en el header y navegación */
-    .header {
-        padding: 0.3rem;
-        flex-direction: column;
-    }
-    .logo {
-        height: 40px;
-        margin-bottom: 0.3rem;
-    }
-    .title {
-        font-size: 0.8rem;
-        position: static;
-        transform: none;
-        margin-bottom: 0.3rem;
-        text-align: center;
-    }
-    .navbar ul {
-        flex-direction: column;
-        gap: 0.2rem;
-    }
-    .nav-link {
-        font-size: 0.8rem;
-        padding: 0.2rem;
-    }
-    /* Ajustes en la barra de búsqueda */
-    .search-bar-container {
-        max-width: 95%;
-        margin: 0 auto;
-        padding: 0.2rem;
-    }
-    .search-bar {
-        font-size: 0.8rem;
-        padding: 0.3rem;
-    }
-    /* Ajustes en el grid de productos */
-    .carousel-row,
-    .product-grid,
-    .search-results-grid {
-        /* Se reduce a una columna para maximizar espacio en pantallas muy pequeñas */
-        grid-template-columns: 1fr;
-        gap: 8px;
-    }
-    /* Ajustes en el carrito flotante */
-    .floating-cart {
-        bottom: 10px;
-        right: 5px;
-        width: 30px;
-        height: 30px;
-    }
-    .floating-cart .cart-icon {
-        width: 20px;
-        height: 20px;
-    }
-    .floating-cart .cart-count {
-        font-size: 0.7rem;
-    }
-    /* Ajustes en el footer */
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 1rem;
-    }
-    .footer-section {
-        margin-bottom: 0.8rem;
-        text-align: center;
     }
 }
