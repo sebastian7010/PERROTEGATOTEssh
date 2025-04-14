@@ -606,15 +606,15 @@ function openModal(imageElement) {
 }
 
 function assignImageClickEvents() {
-    const container = document.getElementById('carousels-container');
-    if (!container) return;
-    container.addEventListener('click', (e) => {
-        // Si el elemento clickeado tiene la clase "product-image", se abre el modal
-        if (e.target && e.target.classList.contains('product-image')) {
-            openModal(e.target);
-        }
+    const productImages = document.querySelectorAll('.product-image');
+    productImages.forEach(img => {
+        img.style.cursor = 'pointer'; // Indica que la imagen es clickeable.
+        img.addEventListener('click', () => {
+            openModal(img);
+        });
     });
 }
+
 
 
 function closeModal() {
